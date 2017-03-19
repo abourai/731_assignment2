@@ -29,7 +29,7 @@ def make_fst(input_phrases, p_file):
                 p_file.write('{} {} {} {}\n'.format(current_id, node_size, g, '<eps>'))
                 current_id = node_size
                 i += 1
-            
+
             j = 0
             while j < len(english) and english[j]+'-e' in fst[current_id]:
                 current_id = fst[current_id][english[j]+'-e']
