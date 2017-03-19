@@ -6,18 +6,34 @@ import time
 import math
 
 
-def maximum_alignment(i):
-    possible_alignments = [(j, self.t[(f[i], e[j])]) for j in range(0, l)]
-    return max(possible_alignments, key=lambda x: x[1])[0]
+
+def calculate_probs(extracted_phrases, output):
+    count_f = defaultdict(lambda: defaultdict(int))
+    count_e = defaultdict(lambda: defaultdict(int))
+    total_f = defaultdict(float)
+    total_e = defaultdict(float)
+
+    for (f, e) in extracted_phrases:
+        count_f[f][e] += 1
+        count_e[e][f] += 1
+
+        total_f[f] += 1
+        total_e[e] += 1
+
+    write_p = open(output, 'wb')
+    for e in count_e:
+        for f in count_e[e]:
+            #print e, f, abs(math.log(float(count_e[e][f]) / total_f[f]))
+            write_p.write('{}\t{}\t{}\n'.format(e, f, abs(math.log(float(count_e[e][f]) / total_f[f]))))
+
 
 def consecutive(set1,k,dict1):
     i = min(set1)
     j = max(set1)
     for m in range(i,j+1):
-        if m not in set1 and dict1[(k,m)] == 0:
+        if m not in set1 and dict1[k][m] != 0:
             return False
     return True
-
 
 
 with open(sys.argv[1], "r") as infile_f:
@@ -26,103 +42,48 @@ with open(sys.argv[2], "r") as infile_e:
   e_sents = [ line.strip().split() for line in infile_e ]
 
 corpus = zip(f_sents,e_sents)
-lens = set()
-aligns = defaultdict(set)
+align_f = defaultdict(lambda: defaultdict(int)) 
+align_e = defaultdict(lambda: defaultdict(int)) 
 
-# "Compute all possible alignments..."
-for k, (f, e) in enumerate(corpus):
-    e = [None] + e
-    lens.add((len(e), len(f) + 1))
-    for (f, e) in product(f, e):
-        aligns[e].add((f, e))
-
-# "Compute initial probabilities for each alignment..."
-t = dict()
-g = lambda n: [1 / float(n)] * n
-for e, aligns_to_e in aligns.iteritems():
-    p_values = g(len(aligns_to_e))
-    t.update(zip(aligns_to_e, p_values))
+with open(sys.argv[3]) as f_align:
+    line_num = 0
+    for line in f_align.readlines():
+        pointers = line.rstrip().split()
+        for pointer in pointers:
+            #print line_num
+            align_f[line_num][int(pointer.split('-')[1])] =int(pointer.split('-')[0])
+            align_e[line_num][int(pointer.split('-')[0])] =int(pointer.split('-')[1])
+        line_num += 1
 
 
-
-
-
-for time in range(5):   
-    likelihood = 0.0
-    c1 = defaultdict(float) # ei aligned with fj
-    c2 = defaultdict(float) # ei aligned with anything
-
-    # The E-Step
-    for k, (f, e) in enumerate(corpus):
-
-       
-        e = [None] + e
-        l = len(e)
-        m = len(f) + 1
-        q = 1 / float(l)
-
-        for i in range(1,m):
-
-            num = [ q * t[(f[i - 1], e[j])] for j in range(0,l) ]
-            den = float(sum(num))
-            #print 'i',k,i,'den',den, 'num',num
-            likelihood += math.log(den)
-
-            for j in range(0, l):
-
-                delta = num[j] / den
-
-                c1[(f[i - 1], e[j])] += delta
-                c2[(e[j],)]      += delta
-
-    # The M-Step
-    t = defaultdict(float, {
-        k: v / c2[k[1:]]
-        for k, v in c1.iteritems() if v > 0.0 })
-    #print likelihood
-
-
-align_i = defaultdict(int) 
-align_j = defaultdict(int) 
-
-
-with open(sys.argv[3], "w") as outfile:
-    for k,(f,e) in enumerate(corpus):
-        e = [None] + e 
-        l = len(e)
-        m = len(f)+1
-        for i in range(1,m):
-            possible_alignments = [(j, t[(f[i-1], e[j])]) for j in range(l)]
-            max_align = max(possible_alignments, key=lambda x: x[1])[0]
-            #print possible_alignments,max_align
-            outfile.write(str(max_align-1)+'-'+str(i-1)+' ')
-            align_j[(k,max_align - 1)] = i - 1
-            align_i[(k,i - 1)] = max_align - 1
-        outfile.write('\n')
-
-phrase = defaultdict(lambda: defaultdict(int))
+phrase = []
 for k,(f,e) in enumerate(corpus):
+    #print ' '.join(f[0:3])
     for i1 in range(len(e)):
-        for i2 in range(i1,min(len(e),i1+2)):
+        for i2 in range(i1,min(len(e),i1+3)):
             tp = set()
             for i in range(i1,i2+1):
-                tp.add(align_j[(k,i)])
-            if consecutive(tp,k,align_i):
+                tp.add(align_e[k][i+1])
+            if consecutive(tp,k,align_f):
                 j1 = min(tp)
                 j2 = max(tp)
                 sp = set()
-                for i in range(j1,j2+1):
-                    sp.add(align_i[(k,i)])
+                for j in range(j1,j2+1):
+                    i = 0
+                    if align_f[k][j] > 0:
+                        i = align_f[k][j] - 1
+                    sp.add(i)
                 if min(sp)>=i1 and max(sp)<=i2:
-                    phrase[" ".join(f[j1:j2+1])][" ".join(e[i1:i2+1])] += 1
-                    while j1 >= 0 and align_i[(k,j1)]==0:
+                    phrase.append( (" ".join(f[j1:j2+1])," ".join(e[i1:i2+1])))
+                    while j1 >= 0 and align_f[k][j1]==0:
                         j_prime = j2
-                        while j_prime <len(f) and align_i[(k,j_prime)]==0:
-                            phrase[" ".join(f[j1:j_prime+1])][" ".join(e[i1:i2+1])] += 1
+                        while j_prime <= len(f) and align_f[k][j_prime]==0:
+                            phrase.append((" ".join(f[j1:j_prime+1]), " ".join(e[i1:i2+1])))
                             j_prime += 1
                         j1 -= 1
 
-print phrase 
+calculate_probs(phrase, sys.argv[4])
+
 # i-german j-eng
 
 
