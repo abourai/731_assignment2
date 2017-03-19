@@ -24,10 +24,12 @@ def calculate_probs(extracted_phrases, output):
     for e in count_e:
         for f in count_e[e]:
             #print e, f, abs(math.log(float(count_e[e][f]) / total_f[f]))
-            write_p.write('{}\t{}\t{}\n'.format(e, f, abs(math.log(float(count_e[e][f]) / total_f[f]))))
+            write_p.write('{}\t{}\t{}\n'.format(f, e, abs(math.log(float(count_e[e][f]) / total_f[f]))))
 
 
 def consecutive(set1,k,dict1):
+    if len(set1) == 0:
+        return False
     i = min(set1)
     j = max(set1)
     for m in range(i,j+1):
@@ -69,20 +71,19 @@ for k,(f,e) in enumerate(corpus):
                 j2 = max(tp)
                 sp = set()
                 for j in range(j1,j2+1):
-                    i = 0
                     if align_f[k][j] > 0:
-                        i = align_f[k][j] - 1
-                    sp.add(i)
-                if min(sp)>=i1 and max(sp)<=i2:
+                        sp.add(align_f[k][j] - 1)
+                if len(sp)>0 and min(sp)>=i1 and max(sp)<=i2:
                     phrase.append( (" ".join(f[j1:j2+1])," ".join(e[i1:i2+1])))
                     while j1 >= 0 and align_f[k][j1]==0:
                         j_prime = j2
-                        while j_prime <= len(f) and align_f[k][j_prime]==0:
+                        while j_prime < len(f) and align_f[k][j_prime]==0:
                             phrase.append((" ".join(f[j1:j_prime+1]), " ".join(e[i1:i2+1])))
                             j_prime += 1
                         j1 -= 1
 
 calculate_probs(phrase, sys.argv[4])
+
 
 # i-german j-eng
 
