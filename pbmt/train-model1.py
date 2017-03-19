@@ -82,5 +82,5 @@ with open(sys.argv[3], "w") as outfile:
             max_align = max(possible_alignments, key=lambda x: x[1])[0]
             #print possible_alignments,max_align
             
-            outfile.write(str(max_align-1)+'-'+str(i-1)+' ')
+            outfile.write(str(max_align)+'-'+str(i-1)+' ')
         outfile.write('\n')
