@@ -27,7 +27,7 @@ def alignment(f_sents,e_sents,f_name):
         t.update(zip(aligns_to_e, p_values))
     q = dict()
     for k, (l, m) in enumerate(lens):
-        for i in range(1, m):
+        for i in range(0, m):
             p_values = g(l)
             for j in range(0, l):
                 q[(j, i, l, m)] = p_values[j]
@@ -46,7 +46,7 @@ def alignment(f_sents,e_sents,f_name):
             l = len(e) #+ 1
             m = len(f) + 1
             for i in range(1,m):
-                num = [ q[(j,i,l,m)] * t[(f[i - 1], e[j])] for j in range(0,l) ]
+                num = [ q[(j,i,l,m)] * t[(f[i - 1], e[j])] for j in range(l) ]
                 den = float(sum(num))
                 likelihood += math.log(den)
                 for j in range(0, l):
