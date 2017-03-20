@@ -15,7 +15,7 @@ import math
 '''
 
 class IBM():
-  def __init__(self, bitext, max_iter = 7):
+  def __init__(self, bitext, max_iter = 5):
 	self.bitext = bitext
 	self.max_iter = max_iter
 	self.tgt_vocab = defaultdict(lambda: 0)
@@ -45,7 +45,7 @@ class IBM():
   def train(self):
 	# (1) Initialize θ[i,j] = 1 / (|E| + 1) (Equation 100)
 	initial_prob = 1.0 / len(self.tgt_vocab.keys())
-	print len(self.tgt_vocab.keys())
+#	print len(self.tgt_vocab.keys())
 	# e = [words[0] for words in self.bitext][0]
 	# f = [words[1] for words in self.bitext][0]
 
@@ -85,7 +85,7 @@ class IBM():
 	  #self.theta[ e[i], f[j] ] = TODO
 	  # (3) Calculate log data likelihood (Equation 106)
 		ll = self.likelihood()
-		print len(self.theta.keys())
+		#print len(self.theta.keys())
 		print '[' + str(num) + ']', 'Log Likelihood:', ll
 
 
@@ -108,13 +108,13 @@ class IBM():
 	alignments = []
 	alignment_f = open(output, 'wb')
 	for idx, (e, f) in enumerate(self.bitext):
-		print e
-		print f
+	#	print e
+	#	print f
 		alignment_line = ''
 		for j in range(len(f)):
 			# ARGMAX_j θ[i,j] or other alignment in Section 11.6 (e.g., Intersection, Union, etc)
 			index, max_j, max_prob = self._argmax(e, f[j])
-			print f[j], max_j, max_prob
+		#	print f[j], max_j, max_prob
 			alignment_line += str(index) + '-' + str(j) + ' '
 			#print self.theta[(e[i], _)]
 			#self.plot_alignment((max_j, max_prob), e, f)
@@ -136,7 +136,7 @@ def read_bitext_file(source, target):
 		#	print bitext[i]
 			bitext[i].append(src_sents[i].rstrip().split())
 
-	print bitext
+	#print bitext
 	return bitext
 
 
@@ -144,7 +144,7 @@ def main(args):
 
   bitext = read_bitext_file(args[1], args[2])
   # bitext = [ ( ['with', 'vibrant', ..], ['mit', 'hilfe',..] ), ([], []) , ..]
-  ibm = IBM(bitext, max_iter = 7)
+  ibm = IBM(bitext, max_iter = 8)
   ibm.train()
   ibm.align(args[3])
 

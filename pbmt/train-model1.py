@@ -22,7 +22,7 @@ aligns = defaultdict(set)
 
 # "Compute all possible alignments..."
 for k, (f, e) in enumerate(corpus):
-    e = [None] + e
+    #e = e
     lens.add((len(e), len(f) + 1))
     for (f, e) in product(f, e):
         aligns[e].add((f, e))
@@ -38,7 +38,7 @@ for e, aligns_to_e in aligns.iteritems():
 
 
 
-for time in range(5):   
+for time in range(7):
     likelihood = 0.0
     c1 = defaultdict(float) # ei aligned with fj
     c2 = defaultdict(float) # ei aligned with anything
@@ -46,8 +46,8 @@ for time in range(5):
     # The E-Step
     for k, (f, e) in enumerate(corpus):
 
-       
-        e = [None] + e
+
+        #e = [None] + e
         l = len(e)
         m = len(f) + 1
         q = 1 / float(l)
@@ -70,17 +70,17 @@ for time in range(5):
     t = defaultdict(float, {
         k: v / c2[k[1:]]
         for k, v in c1.iteritems() if v > 0.0 })
-    #print likelihood
+    print likelihood / 1826738
 
 with open(sys.argv[3], "w") as outfile:
     for (f,e) in corpus:
-        e = [None] + e 
+        #e = [None] + e
         l = len(e)
         m = len(f)+1
         for i in range(1,m):
             possible_alignments = [(j, t[(f[i-1], e[j])]) for j in range(l)]
             max_align = max(possible_alignments, key=lambda x: x[1])[0]
             #print possible_alignments,max_align
-            
+
             outfile.write(str(max_align)+'-'+str(i-1)+' ')
         outfile.write('\n')

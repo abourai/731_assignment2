@@ -25,7 +25,7 @@ def make_fst(input_phrases, p_file):
                 g = german[i]
                 node_size +=1
                 fst[current_id][g+'-g'] = node_size
-                print '{} {} {} {}'.format(current_id, node_size, g, '<eps>')
+        #        print '{} {} {} {}'.format(current_id, node_size, g, '<eps>')
                 p_file.write('{} {} {} {}\n'.format(current_id, node_size, g, '<eps>'))
                 current_id = node_size
                 i += 1
@@ -38,12 +38,12 @@ def make_fst(input_phrases, p_file):
                 e = english[j]
                 node_size +=1
                 fst[current_id][e+'-e'] = node_size
-                print '{} {} {} {}'.format(current_id, node_size, '<eps>',e)
+        #        print '{} {} {} {}'.format(current_id, node_size, '<eps>',e)
                 p_file.write('{} {} {} {}\n'.format(current_id, node_size,'<eps>',e))
                 current_id = node_size
                 j += 1
 
-            print '{} {} {} {} {}'.format(current_id, 0, '<eps>', '<eps>', log_prob)
+        #    print '{} {} {} {} {}'.format(current_id, 0, '<eps>', '<eps>', log_prob)
             p_file.write('{} {} {} {} {}\n'.format(current_id, 0, '<eps>', '<eps>', log_prob))
         p_file.write('{} {} {} {}\n'.format(0, 0, '</s>', '</s>'))
         p_file.write('{} {} {} {}\n'.format(0, 0, '<unk>', '<unk>'))

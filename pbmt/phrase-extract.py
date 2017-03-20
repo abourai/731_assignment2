@@ -88,7 +88,7 @@ def calculate_probs(extracted_phrases, output):
 	write_p = open(output, 'wb')
 	for e in count_e:
 		for f in count_e[e]:
-			print e, f, abs(math.log(float(count_e[e][f]) / total_f[f]))
+		#	print e, f, abs(math.log(float(count_e[e][f]) / total_f[f]))
 			write_p.write('{}\t{}\t{}\n'.format(e, f, abs(math.log(float(count_e[e][f]) / total_f[f]))))
 
 

@@ -33,15 +33,15 @@ def alignment(f_sents,e_sents,f_name):
                 q[(j, i, l, m)] = p_values[j]
 
 
-    for time in range(8):   
+    for time in range(8):
         likelihood = 0.0
         c1 = defaultdict(float) # ei aligned with fj
         c2 = defaultdict(float) # ei aligned with anything
-        c3 = defaultdict(float) 
-        c4 = defaultdict(float) 
+        c3 = defaultdict(float)
+        c4 = defaultdict(float)
 
         # The E-Step
-        for k, (f, e) in enumerate(corpus):     
+        for k, (f, e) in enumerate(corpus):
             #e = [None] + e
             l = len(e) #+ 1
             m = len(f) + 1
@@ -58,18 +58,18 @@ def alignment(f_sents,e_sents,f_name):
         # The M-Step
         t = defaultdict(float, {k: v / c2[k[1:]] for k, v in c1.iteritems() if v > 0.0})
         q = defaultdict(float, {k: v / c4[k[1:]] for k, v in c3.iteritems() if v > 0.0})
-
-    #final_align = defaultdict(lambda: defaultdict(int)) 
+        print likelihood / 19099
+    #final_align = defaultdict(lambda: defaultdict(int))
 
     with open(f_name, "w") as outfile:
         for index,(f,e) in enumerate(corpus):
-            #e = [None] + e 
+            #e = [None] + e
             l = len(e)#+1
             m = len(f)+1
             for i in range(1,m):
                 alignments = [(j, t[(f[i - 1], e[j])] * q[(j, i, l, m)]) for j in range(l)]
                 max_align = max(alignments, key=lambda x: x[1])[0]
-                
+
                 outfile.write(str(max_align)+'-'+str(i-1)+' ')
                 #final_align[index][i-1] = max_align
             outfile.write('\n')
@@ -84,8 +84,8 @@ aligns_f = alignment(f_sents,e_sents,sys.argv[3])
 #aligns_e = alignment(e_sents,f_sents,'alignment_e.txt')
 
 
-# aligns_intersect = defaultdict(lambda: defaultdict(int)) 
-# aligns_union     = defaultdict(lambda: defaultdict(int)) 
+# aligns_intersect = defaultdict(lambda: defaultdict(int))
+# aligns_union     = defaultdict(lambda: defaultdict(int))
 
 # for k in aligns_f:
 #     for j in aligns_f[k]:
