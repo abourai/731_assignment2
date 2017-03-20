@@ -8,6 +8,8 @@ DATA_DIR=en-de
 SCRIPT_DIR=.
 OUT_DIR=outputs
 TRAIN_DATA=$DATA_DIR/train.en-de.low.filt
+#TRAIN_DATA=$DATA_DIR/valid.en-de.low
+
 mkdir -p $OUT_DIR
 
 # *** Train n-gram language model and create an FST
@@ -16,9 +18,12 @@ echo "starting train-ngram..."
 
 # *** Implement 1: Train IBM Model 1 and find alignment
 echo "train IBM model 1..."
-#python $SCRIPT_DIR/train-model1.py $TRAIN_DATA.de $TRAIN_DATA.en $OUT_DIR/alignment_train_f.txt
+python $SCRIPT_DIR/train-model1.py $TRAIN_DATA.de $TRAIN_DATA.en $OUT_DIR/alignment_train_f_ibm1.txt t_f
+python $SCRIPT_DIR/train-model1.py $TRAIN_DATA.en $TRAIN_DATA.de $OUT_DIR/alignment_train_e_ibm1.txt t_e
+echo "train IBM model 2..."
 
-python $SCRIPT_DIR/train-model1.py $TRAIN_DATA.en $TRAIN_DATA.de $OUT_DIR/alignment_train_e.txt
+python $SCRIPT_DIR/train-model2.py $TRAIN_DATA.de $TRAIN_DATA.en $OUT_DIR/alignment_train_f.txt t_f
+python $SCRIPT_DIR/train-model2.py $TRAIN_DATA.en $TRAIN_DATA.de $OUT_DIR/alignment_train_e.txt t_e
 
 echo "intersection heuristic..."
 python $SCRIPT_DIR/intersect.py $OUT_DIR/alignment_train_f.txt $OUT_DIR/alignment_train_e.txt $OUT_DIR/alignment_train_intersect.txt
@@ -33,7 +38,7 @@ python $SCRIPT_DIR/grow-diagonal.py $OUT_DIR/alignment_train_intersect.txt $OUT_
 echo "phrase extraction..."
 python $SCRIPT_DIR/phrase-extract.py $TRAIN_DATA.de $TRAIN_DATA.en $OUT_DIR/alignment_train_grow_diag.txt $OUT_DIR/phrase_train_diag.txt
 
-*** Implement 3: Create WFSTs for phrases
+#*** Implement 3: Create WFSTs for phrases
 echo "creating WFSTs..."
 python $SCRIPT_DIR/create-phrase-fst.py $OUT_DIR/phrase_train_diag.txt $OUT_DIR/phrase-fst.txt
 

@@ -17,6 +17,11 @@ def read_params():
     return new_theta
 
 
+def read_t():
+    return np.load(sys.argv[4]+'.npy').item()
+
+
+
 def alignment(f_sents,e_sents,f_name):
     corpus = zip(f_sents,e_sents)
     lens = set()
@@ -28,7 +33,8 @@ def alignment(f_sents,e_sents,f_name):
         for (f, e) in product(f, e):
             aligns[e].add((f, e))
 
-    t = read_params()
+    #t = read_params()
+    t = read_t()
     g = lambda n: [1 / float(n)] * n
     # for e, aligns_to_e in aligns.iteritems():
     #     p_values = g(len(aligns_to_e))
@@ -41,7 +47,7 @@ def alignment(f_sents,e_sents,f_name):
                 q[(j, i, l, m)] = p_values[j]
 
 
-    for time in range(8):
+    for time in range(25):
         likelihood = 0.0
         c1 = defaultdict(float) # ei aligned with fj
         c2 = defaultdict(float) # ei aligned with anything

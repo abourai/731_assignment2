@@ -38,7 +38,7 @@ for e, aligns_to_e in aligns.iteritems():
 
 
 
-for time in range(7):
+for time in range(10):
     likelihood = 0.0
     c1 = defaultdict(float) # ei aligned with fj
     c2 = defaultdict(float) # ei aligned with anything
@@ -71,6 +71,8 @@ for time in range(7):
         k: v / c2[k[1:]]
         for k, v in c1.iteritems() if v > 0.0 })
     print likelihood / 1826738
+
+np.save(sys.argv[4]+'.npy', t) 
 
 with open(sys.argv[3], "w") as outfile:
     for (f,e) in corpus:
