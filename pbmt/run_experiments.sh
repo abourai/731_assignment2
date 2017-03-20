@@ -14,21 +14,23 @@ mkdir -p $OUT_DIR
 python $SCRIPT_DIR/train-ngram.py $TRAIN_DATA.en $OUT_DIR/ngram-exp-fst.txt
 
 # *** Implement 1: Train IBM Model 1 and find alignment
-python $SCRIPT_DIR/train-model1.py $TRAIN_DATA.de $TRAIN_DATA.en $OUT_DIR/alignment_exp_f.txt
 #
-# python $SCRIPT_DIR/train-model2.py $TRAIN_DATA.en $TRAIN_DATA.de $OUT_DIR/alignment_exp_e.txt
+python $SCRIPT_DIR/train-model2.py $TRAIN_DATA.de $TRAIN_DATA.en $OUT_DIR/alignment_exp_f.txt
+
+python $SCRIPT_DIR/train-model2.py $TRAIN_DATA.en $TRAIN_DATA.de $OUT_DIR/alignment_exp_e.txt
+
 #
-# python $SCRIPT_DIR/intersect.py $OUT_DIR/alignment_exp_f.txt $OUT_DIR/alignment_exp_e.txt $OUT_DIR/alignment_exp_intersect.txt
-#
-# python $SCRIPT_DIR/union.py $OUT_DIR/alignment_exp_f.txt $OUT_DIR/alignment_exp_e.txt $OUT_DIR/alignment_exp_union.txt
-#
-# python $SCRIPT_DIR/grow-diagonal.py $OUT_DIR/alignment_exp_intersect.txt $OUT_DIR/alignment_exp_union.txt $OUT_DIR/alignment_exp_grow_diag.txt
+python $SCRIPT_DIR/intersect.py $OUT_DIR/alignment_exp_f.txt $OUT_DIR/alignment_exp_e.txt $OUT_DIR/alignment_exp_intersect.txt
+
+python $SCRIPT_DIR/union.py $OUT_DIR/alignment_exp_f.txt $OUT_DIR/alignment_exp_e.txt $OUT_DIR/alignment_exp_union.txt
+
+python $SCRIPT_DIR/grow-diagonal.py $OUT_DIR/alignment_exp_intersect.txt $OUT_DIR/alignment_exp_union.txt $OUT_DIR/alignment_exp_grow_diag.txt
 
 # *** Implement 2: Extract and score phrases
-python $SCRIPT_DIR/phrase-extract.py $TRAIN_DATA.de $TRAIN_DATA.en $OUT_DIR/alignment_exp_f.txt $OUT_DIR/phrase_exp_f.txt
+python $SCRIPT_DIR/phrase-extract.py $TRAIN_DATA.de $TRAIN_DATA.en $OUT_DIR/alignment_exp_grow_diag.txt $OUT_DIR/phrase_exp_grow_diag.txt
 
 # *** Implement 3: Create WFSTs for phrases
-python $SCRIPT_DIR/create-phrase-fst.py $OUT_DIR/phrase_exp_f.txt $OUT_DIR/phrase-exp-fst.txt
+python $SCRIPT_DIR/create-phrase-fst.py $OUT_DIR/phrase_exp_grow_diag.txt $OUT_DIR/phrase-exp-fst.txt
 
 # *** Compile WFSTs into a single model
 python $SCRIPT_DIR/symbols.py 2 < $OUT_DIR/phrase-exp-fst.txt > $OUT_DIR/phrase-exp-fst.isym

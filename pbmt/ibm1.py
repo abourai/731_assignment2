@@ -87,6 +87,7 @@ class IBM():
 		ll = self.likelihood()
 		#print len(self.theta.keys())
 		print '[' + str(num) + ']', 'Log Likelihood:', ll
+	return self.theta
 
 
   def _argmax(self, e, word):

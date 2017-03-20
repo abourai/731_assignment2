@@ -5,8 +5,16 @@ import numpy as np
 import time
 import math
 
+from ibm1 import IBM, read_bitext_file
 
 
+def read_params():
+    bitext = read_bitext_file(sys.argv[1], sys.argv[2])
+    ibm = IBM(bitext, max_iter=8)
+    params = ibm.train()
+    keys = params.keys()
+    new_theta = {(x[1], x[0]): params[x] for x in keys}
+    return new_theta
 
 
 def alignment(f_sents,e_sents,f_name):
@@ -20,11 +28,11 @@ def alignment(f_sents,e_sents,f_name):
         for (f, e) in product(f, e):
             aligns[e].add((f, e))
 
-    t = dict()
+    t = read_params()
     g = lambda n: [1 / float(n)] * n
-    for e, aligns_to_e in aligns.iteritems():
-        p_values = g(len(aligns_to_e))
-        t.update(zip(aligns_to_e, p_values))
+    # for e, aligns_to_e in aligns.iteritems():
+    #     p_values = g(len(aligns_to_e))
+    #     t.update(zip(aligns_to_e, p_values))
     q = dict()
     for k, (l, m) in enumerate(lens):
         for i in range(0, m):
@@ -81,6 +89,7 @@ with open(sys.argv[2], "r") as infile_e:
   e_sents = [ line.strip().split() for line in infile_e ]
 
 aligns_f = alignment(f_sents,e_sents,sys.argv[3])
+#print read_params()
 #aligns_e = alignment(e_sents,f_sents,'alignment_e.txt')
 
 
