@@ -33,8 +33,8 @@ def alignment(f_sents,e_sents,f_name):
         for (f, e) in product(f, e):
             aligns[e].add((f, e))
 
-    #t = read_params()
-    t = read_t()
+    t = read_params()
+    #t = read_t()
     g = lambda n: [1 / float(n)] * n
     # for e, aligns_to_e in aligns.iteritems():
     #     p_values = g(len(aligns_to_e))
@@ -47,13 +47,13 @@ def alignment(f_sents,e_sents,f_name):
                 q[(j, i, l, m)] = p_values[j]
 
 
-    for time in range(25):
+    for time in range(10):
         likelihood = 0.0
         c1 = defaultdict(float) # ei aligned with fj
         c2 = defaultdict(float) # ei aligned with anything
         c3 = defaultdict(float)
         c4 = defaultdict(float)
-
+        print time
         # The E-Step
         for k, (f, e) in enumerate(corpus):
             #e = [None] + e
@@ -72,7 +72,7 @@ def alignment(f_sents,e_sents,f_name):
         # The M-Step
         t = defaultdict(float, {k: v / c2[k[1:]] for k, v in c1.iteritems() if v > 0.0})
         q = defaultdict(float, {k: v / c4[k[1:]] for k, v in c3.iteritems() if v > 0.0})
-        print likelihood / 19099
+        print likelihood / 24901
     #final_align = defaultdict(lambda: defaultdict(int))
 
     with open(f_name, "w") as outfile:

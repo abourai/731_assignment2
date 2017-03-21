@@ -64,13 +64,13 @@ class IBM():
 			total_e = defaultdict(lambda: 0.0)
 			for j in xrange(len(f)):
 				for i in xrange(len(e)):
-					total_e[e[i]] += self.theta[e[i], f[j]]
+					total_e[i] += self.theta[e[i], f[j]]
 
 		#	total_f = defaultdict(float)
 			for j in xrange(len(f)):
 				for i in xrange(len(e)):
-					count[e[i], f[j]] += self.theta[e[i], f[j]] / total_e[e[i]]
-					total_f[f[j]] += self.theta[e[i], f[j]] / total_e[e[i]]
+					count[e[i], f[j]] += self.theta[e[i], f[j]] / total_e[i]
+					total_f[f[j]] += self.theta[e[i], f[j]] / total_e[i]
 
 		# (2) [M] θ[i,j] =  C[i,j] / Σ_j C[i,j] (Equation 107)
 		# for (e,f) in self.bitext:

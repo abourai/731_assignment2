@@ -44,8 +44,8 @@ with open(sys.argv[2], "r") as infile_e:
   e_sents = [ line.strip().split() for line in infile_e ]
 
 corpus = zip(f_sents,e_sents)
-align_f = defaultdict(lambda: defaultdict(int)) 
-align_e = defaultdict(lambda: defaultdict(int)) 
+align_f = defaultdict(lambda: defaultdict(int))
+align_e = defaultdict(lambda: defaultdict(int))
 
 with open(sys.argv[3]) as f_align:
     line_num = 0
@@ -86,5 +86,3 @@ calculate_probs(phrase, sys.argv[4])
 
 
 # i-german j-eng
-
-

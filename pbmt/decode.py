@@ -3,21 +3,22 @@ import sys
 
 tm = fst.Fst.read(sys.argv[1])
 lm = fst.Fst.read(sys.argv[2])
+wp = fst.Fst.read(sys.argv[3])
 
 isym = {}
-with open(sys.argv[3], "r") as isymfile:
+with open(sys.argv[4], "r") as isymfile:
   for line in isymfile:
     x, y = line.strip().split()
     isym[x] = int(y)
 
 osym = {}
-with open(sys.argv[4], "r") as osymfile:
+with open(sys.argv[5], "r") as osymfile:
   for line in osymfile:
     x, y = line.strip().split()
     osym[int(y)] = x
 
 for line in sys.stdin:
-  # Read input 
+  # Read input
   compiler = fst.Compiler()
   arr = line.strip().split() + ["</s>"]
   for i, x in enumerate(arr):
@@ -29,6 +30,7 @@ for line in sys.stdin:
   # Create the search graph and do search
   graph = fst.compose(ifst, tm)
   graph = fst.compose(graph, lm)
+  graph = fst.compose(graph, wp)
   graph = fst.shortestpath(graph)
 
   # Read off the output
@@ -38,4 +40,3 @@ for line in sys.stdin:
       if arc.olabel != 0:
         out.append(osym[arc.olabel])
   print(" ".join(reversed(out[1:])))
-

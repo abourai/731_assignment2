@@ -1,1304 +1,1565 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-you can <unk> to the <unk>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<unk> <unk> , <unk> <unk>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<unk> <unk> <unk> <unk> <unk> <unk>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-two different choice was so , <unk> two different choice was that i <unk> <unk>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-now have <unk>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+when steve lopez , tech columnist of los angeles times , one day through the streets of the center of los angeles went , he heard a beautiful music .
+they came from a man : an african-american , likable , rough , homeless , the on a violin have played that have only two strings had .
+many of you are the story of know , because of <unk> paper was later a book that again a movie , by robert downey junior , when steve lopez , jamie <unk> as nathaniel anthony <unk> , the <unk> who on <unk> studied and its very promising career tragically early by their paranoid schizophrenia ended up .
+nathaniel left <unk> , suffered a <unk> and 30 years lived there it as homeless woman on the streets of <unk> <unk> the center of los angeles .
+i recommend you all , <unk> book to read or at the film to see , lest you just the wonderful connected to understand that between these two men evolved is , but what the music that link to make helping and how they finally the instrument came when the pun allows is that 's <unk> , nathaniel away from the road to get .
+i met mr <unk> in 2008 , well two years , from walt disney <unk> hall .
+he had just a performance of <unk> first and fourth symphony heard and got behind the stage to me introduce you .
+he did n't have a very <unk> and <unk> tone of yo-yo ma , hillary clinton , and about how the dodgers abandoned it never come into a baseball world series of creating . and if it all over that <unk> passage of our first violin at last sentence by <unk> fourth symphony .
+
+
+
+and in just as a <unk> found itself nathaniel when we with our first class in the walt disney <unk> hall started . he had these mind-boggling flickering in their eyes and it seemed completely lost .
+he talked about invisible demons and smoke and about how it does anyone in my sleep , toxins wanted .
+i feared , not <unk> , but i feared that i would actually lose that it into an artist 's heightened immersed could and that i got its relationship to violin have the destruction would be when i started just about <unk> and <unk> and more glamorous forms of <unk> <unk> to talk .
+so i just to play .
+i played the first set of <unk> <unk> .
+and as i was playing , i noticed that in <unk> eyes a <unk> change was wrong .
+it was , as if it under the impact an invisible medicine of it said , a chemical response , of the catalyst my game was .
+<unk> <unk> anger morphed into understanding , in a quiet curiosity and <unk> .
+and how by a miracle , he took his violin and started to be heard some clips from <unk> to play and asked me then , them out to play : <unk> , <unk> , <unk> .
+we started going on a lot about music to talk , starting from the stream of beethoven , <unk> , <unk> and all the other b , of <unk> to <unk> <unk> .
+and i realized that they 're not just an encyclopedic know about music owned , but it with you also a strong personal relationship combined .
+he talked about her with a passion and if you understand that i see only from my colleagues at philharmonic of los angeles know .
+by strapping on music playing and about music interviewed was from this <unk> , confused man who wo n't all around the streets of los angeles pulled that was a <unk> , <unk> , <unk> , in <unk> <unk> music today .
+music 's medicine . music is transforming ourselves .
+for nathaniel means music involves health .
+because the music , it allows him , his thoughts and delusions with his imagination and creativity in a real to transform .
+and so <unk> his agonized situation .
+i realized that that 's what the nature of art is .
+right here is the reason that we music making : so we something that in all of us , deep inside out of our feelings , by our artistic lens , through our creativity to actually shape can .
+and the fact that expression hit us all , and moved to inspire and it unites us .
+what nathaniel terms , it took him the music back into a community of friends .
+the <unk> power of music took him back into a family of musicians that he understood that would be a talent to recognize him and <unk> .
+and i 'll keep on with nathaniel music , whether to walt disney <unk> hall , or in <unk> <unk> , because he reminds me why i musicians and i reply .
+thanks .
+bruno giussani : thanks . thanks .
+robert gupta .
+robert gupta : i want to play that i <unk> the <unk> stolen to this .
+i hope , they excuse me .
+so i have in my life , many fish have argued .
+i 've only two loved .
+this first , this was more like a passionate fling with .
+it was a beautiful fish , <unk> good , consistency , <unk> , a book on the menu .
+what a fish .
+
+you could be so comfortable with me feel , it to sell it .
+i had this beauty is a sense for several months .
+one day , i call the head of your business , he said , if i was in an event and recite could about sustainability in the farm .
+`` course , '' i said .
+there was a company that to solve was trying to what this tremendous problem for us chefs 's becoming . how to keep that we fish on our menus ?
+in the last 50 years we have the sea fish out how we forests <unk> beaten up .
+it 's hard , the destruction of <unk> .
+ninety percent of the big fish , of that we love , creating tuna that <unk> that salmon , this swordfish . they are breaking .
+it 's almost nothing left .
+so it will probably disney or bad <unk> , <unk> , in our future will be .
+many arguments against . <unk> pollute the environment , most of them anyway , and they are inefficient , so for tuna . a big disadvantage .
+he has a <unk> of 15 to one .
+so , 15 pounds <unk> are required to have a pound <unk> get .
+not very sustainable .
+tastes not very good .
+so here was finally one company that , attempted it right to make .
+i did they supported .
+a day before the event i called the head of <unk> for the company in .
+we call him , don .
+`` don , '' i said , `` just about the fact , to really have , you are famous for this , so far out in the sea grow , you for the environment is not really polluted . ''
+`` that basis , '' he said , `` we are so far out that 's waste from a fish and distributed , is n't focused . ''
+and then put it 's attach , `` we 're essentially a own world .
+this <unk> of <unk> to 1 , '' he said .
+`` the best in the industry . ''
+<unk> to one , great .
+`` <unk> to one thing ? what feeding her ? ''
+`` sustainable proteins , '' he said .
+`` great , '' i said , put on .
+and that night i was in bed thinking : what hell 's a sustainable protein ?
+so i called the next day , just before the event , don on .
+i said , don what for example are sustainable proteins that ? ''
+he said , he knows that not . he 'll responds .
+now , i <unk> with a few people in the company . nobody could be a proper answers to that . until i finally begin with senior biologists <unk> .
+we call him as well , don .
+`` don , '' i said , `` what for example are sustainable proteins that ? ''
+well , he mentioned some algae and some <unk> , and then he said , <unk> .
+i said , <unk> ? ''
+he said `` yes , putting feathers of skin , <unk> , residue , <unk> and to cook food processing . ''
+i said `` what percentage <unk> <unk> 's chicken of ?
+in the assumption of maybe two percent .
+`` well , that 's about 30 percent , '' he said .
+
+there was a long break in the vocals and he said , there are just too much chicken in the world . ''
+i <unk> me of this fish .
+no , not because i have a <unk> <unk> and <unk> am .
+that i 'm actually .
+no , i <unk> actually from this fish <unk> , because , i swear to god , the fish with this conversation about it 's chicken <unk> has .
+that second dog that 's another kind of <unk> .
+it is romantic sort of the way , where you get to the better your fish about learning , you the fish the more love .
+i have to the first in a restaurant in <unk> eaten .
+one of our journalist , i had been thinking about this fish , talking about .
+she 's kind reverse-engineering this .
+he came on the table with a light , almost <unk> white color .
+the chef came up with him <unk> .
+hs twice .
+amazingly , he was still delicious .
+who can a fish that well taste , after he <unk> was ?
+i ca n't , but this guy is it .
+we call him miguel sokoloff . actually means he miguel sokoloff .
+and no , he 's the fish to cook and he 's not a chef . least it 's the way that , and i 'd have to understand .
+he 's a biologist in <unk> la <unk> .
+this is a <unk> in the <unk> corner of spain .
+it 's near the <unk> of flow <unk> .
+until the 1980s , the farm in the hands of <unk> .
+they grew <unk> on , which basically wetlands have been .
+they did this , by the country <unk> .
+they built this complicated series of the canals , and they had urged her water from the land out and it out to the river .
+now , they could n't do that the work , not economic .
+and ecologically it was a catastrophe .
+it brought about 90 percent of birds walk around , what a place many birds are .
+and so , 1982 a spanish company with green is bought that land .
+what they 've done ?
+they have the river of water in reverse .
+they have literally to lever thrown away .
+instead of the water <unk> they brought the channels , the water again <unk> .
+they <unk> the channels .
+they created an 11,000 acres <unk> -- <unk> , <unk> , the shrimp , eel that -- and have miguel , and his company which begets environmental destruction is completely subverted .
+the farm is incredible .
+i mean , you have something like never seen .
+you stare out on the horizon , of a million miles away , and everything you 're seeing <unk> channels and the density , lush march .
+i was there was n't long time with miguel sokoloff .
+he 's an incredible guy , three parts of charles darwin , one part `` a crocodile , kissing . ''
+okay ? because we were and struggle to us by the wetlands and i <unk> and <unk> , we 've been rolled up to my knees , and miguel , holding in peace one <unk> .
+this removes a rare <unk> out .
+so i mentioned , it <unk> of phytoplankton .
+and here , here he sees a pattern of pool that it on the tanzanian giraffe mind .
+it turns out that miguel most of his career in <unk> <unk> in africa has spent .
+i asked him , going to as a <unk> 's becoming .
+he said , fish ? i know anything about fish .
+i 'm an expert in relationship . ''
+and then he goes and fall into more hearing about the rare birds and algae and weird <unk> .
+and now do n't see me wrong , that was really fascinating , you know that <unk> community <unk> , so in the way .
+it 's great , but i was in love .
+and my head was sick to think about that <unk> piece of delicious fish that i feel the brink had .
+so i it stopped . i said : miguel , how come to your fish that well taste ? ''
+he showed up the algae .
+`` i know , boy , the algae , of phytoplankton , the connections that 's unbelievable .
+but what we eat your fish ?
+what 's the <unk> ? ''
+now , he goes on me to tell you know it was such a aspirate system is that the fish to eat what you in the wild food would .
+the <unk> biomass of phytoplankton , the <unk> , that 's what the fish to baseball .
+the system is as good , it 's completely <unk> .
+it 's no food .
+depending upon a farm is a lot of your animal to stop feeding ?
+after day i went on this site of it is miguel around and i asked him , i said , for a place that 's kind of course it seems to be , unlike each farm in which i ever been to , `` how to measure of you 'll succeed ? ''
+the moment , it 's like a <unk> a <unk> requires you know .
+and we came around the corner and we provided the <unk> sight of thousands and thousands , pinker flamingos , a literally , pinker carpet that far the eye .
+`` it 's success , '' he said .
+`` check out their bellies on , pink .
+they <unk> . ''
+<unk> ? i was completely confused .
+i said : miguel , <unk> they do n't find your fish ? ''
+`` yes , he said .
+`` we lost 20 percent of our fish and <unk> to the birds .
+now , last year went on this site 600,000 birds , more than 100 different ways .
+it 's now the largest and one of the main private <unk> across europe , today .
+i said : miguel , is a good <unk> <unk> not the last thing you on a <unk> have want ? ''
+he <unk> his head , no .
+he said , we build <unk> , not hard .
+this is an organic network .
+the flamingos eat the shrimp .
+the shrimp eat the phytoplankton .
+je pinker 's so the belly down the better the system . ''
+okay , let 's going to revisit . a farm , the ones stop feeding and a farm that their success on the health of its predators measures .
+a <unk> , but also a <unk> .
+oh , and the way to these flamingos covered by <unk> n't even be there .
+they breed in a city 240 miles away , where the surface is better for the nest maintenance .
+every morning they go 240 the mile farm .
+and every night fly it comes 240 miles away .
+they do because it 's <unk> white line the highway <unk> may follow .
+seriously .
+i had a journey of penguins had imagined , so i went miguel on .
+i said : miguel , they go 240 miles to the farm and they go up 240 miles back at night ?
+they do for kids ? ''
+he looked at me as if i just a song from the whitney houston quoted .
+he said `` no . they do this because the food is better . ''
+i have n't the skin of my beloved of a fish mentioned , the most delicious , and i may not <unk> . i do n't like them <unk> . i might not be crisp .
+it is that <unk> , <unk> flavor .
+i cooking almost never struck it .
+and yet , when i gave them in this restaurant in <unk> try 've got it 's not to <unk> <unk> .
+she liked the sweet and in , as if you a half bites by the ocean would take .
+i mentioned the face miguel , and he <unk> .
+he said , `` the skin it looks like a sponge .
+she 's the last defenses , until something in the body happens .
+it has progressed throughout the evolution has decided to <unk> <unk> . ''
+and then put it in addition , `` but our water has no <unk> . ''
+okay . a farm that your fish to stop feeding . a farm that their success then measure the success of its predators .
+and then i recognized when he says , a farm that had no <unk> , <unk> he powerful , because the water , it through this farm flows comes from the river <unk> in .
+it 's a river , of all the things with it does that are rivers so now tend to take to lead , chemical pollutants , runoff from <unk> .
+and if it spreads by the system , fought , and this leaves is the waters clean up , how it <unk> is .
+the system is as good , it cleans the water .
+so not just a farm , the animals that , it feeds , not just a farm that their success on the health of its predators measures , but a farm that literally a <unk> is , and not just for these fish , but for you and me .
+because when the water <unk> , <unk> it in the atlantic .
+a drop in the ocean , i know , but i took him , and that they should be doing , because these <unk> what romantic whatever , is also telling .
+you might argue that you a recipe is the future of good food , whether we of <unk> or <unk> talk .
+what do we need is a radical new conception of agriculture , from one , in the foods really good taste .
+but for many people 's a little bit more radical .
+we 're not a realist novel , we <unk> . we 're lover .
+we love <unk> . we love little <unk> . we talk about local food . we eat the organic .
+and if you say , the things have to leave the future of good food can assure you can somebody somewhere and say `` hey guys , i love the pink flamingos , but how they will feed the world ?
+how they will feed the world ? ''
+i must be honest ?
+i like this question is not .
+no , not because we have enough calories are producing to the world more than just to feed .
+one billion people are today <unk> .
+one billion -- this is more than ever -- because <unk> disparities in the distribution , not the <unk> .
+now , i like this question is not because it 's the logic of <unk> the last 50 years of defined by .
+feed the grain of the herbivores to <unk> of <unk> , chemicals on the planet for chicken at the fishes , and this stuff has to agribusiness just wondered : `` if we more people less feed , how awful it will be ? ''
+this was the motivation . it was the best justification and it was the business plan the american agriculture .
+we should call them , what it 's a craft in <unk> , a craft that 's very organic capital eats , the fact , the production take place .
+this is not a craft , and it is n't agriculture .
+our <unk> is today face , not because <unk> <unk> , but because <unk> resources ,
+not by the latest <unk> and <unk> , but with fertile country , not by the pumps , but through fresh water , not tainted with chainsaws , but with forests , and not across boats , and nets , but with fish in the sea .
+they want to feed the world ?
+let 's start with the question : how are we feed itself ?
+or better , how do we conditions do that every community , enabling to herself to feed ?
+in order to do , look not on the <unk> for the future .
+it 's really old , and it 's done .
+capital , chemistry and machines are at <unk> and it has ever really good for food produced .
+we go instead of the green model of .
+this is that in two billion years of employment <unk> .
+look miguel , farmers how miguel ,
+businesses , which is n't worlds for themselves are , factories that restore instead <unk> , factories , the <unk> growing evidence and just hard to farmers that not just emitters , but are experts on relationships ,
+because they are ones that 's expert in flavor is .
+and if i really honestly 'm sure you 're a better , chef : when i possibly be with me .
+you know that 's my right , because if that the future of good food is , it is delicious be .
+thanks .
+if i give you about one thing they perceive want it is that the totality of data that we consume that 's bigger than the sum of the parts and instead i appeal to <unk> to think i want that you think about how we information that can use that pattern appear and we have these trends could recognize that otherwise , not visible got together .
+so what we see here 's a typical <unk> to age arranged .
+the program that i 'm running here is a little experiment .
+it means <unk> and what i 'm going to <unk> can do is that i want to a certain death filter that can tell us an accident .
+and immediately , i see another pattern , which emerge .
+in fact , because in <unk> here the people on the most are and they over here at <unk> are .
+we can one more step out and sort of the data , then again and see that <unk> and cancer the usual suspects , but not for everyone .
+
+and who <unk> see that this is especially in men is true .
+you see so that the reputation of information and data in this sort of swimming in a living <unk> mind .
+and if we 're concerned this <unk> can do why not for the content matters ?
+
+it 's all over here . it 's everything online .
+you can do n't like to my talk in their rooms and test .
+with <unk> you can dive into a decade .
+you can dive into a particular year .
+you can actually attached to a certain copy to jump .
+now if i look over here , i see the athlete that in this issue that appear and the sports .
+i 'm a lance armstrong fan , i click this way that criminalize me all expenses show you have lance armstrong mentioned will .
+now , if i just a <unk> track get me , i might think `` okay , what if i 'm going to the subject i 'm cycling societies ? ''
+so i step back and <unk> of view .
+now i see greg <unk> .
+and you get an idea of that if you like this information scans , specifically , bigger , <unk> , <unk> , looking at it or <unk> not just .
+you do something that actually slightly different is .
+it 's something between them and we think it changes the way and what information can be used .
+i want this idea now a little more do with about what a little crazy is .
+what we 've done is , we have any one <unk> plate and it on a little summary , reduced .
+the summary , contains a quick view and a symbol of the domain of which you come .
+
+but even in unconstrained view helps us a lot of things .
+
+i 'll discuss this topic <unk> '' vote .
+now , after i <unk> ' voted for i know that the <unk> looking at the most likely to be repaid in time out <unk> `` people of the year . '' there are .
+this is really important , because it had a realization that 's not in a single <unk> out .
+this is just to see if you step back and the whole issue .
+
+now if i all these people think i know that the majority of <unk> are . some come from science . some , less again , come from the economy . here is my head . and one comes from the <unk> .
+and interestingly , bono 's a ted prize winner .
+so we can now i jumped , and a look at all the ted prize winner throw away .
+you see , we are surfing on the web the first time it may actually have a net , is not just by side to page , but more abstract .
+and so let me show what else to show what a little surprise to be .
+i show here just the new york times website .
+<unk> , this application -- i want it 's not a browser call ; it 's really need any browser , but you can websites to look closely -- and we make these <unk> to each individual site like this .
+so i can step back -- and directly to a specific <unk> jump .
+this is so important because you just by the look at websites are in that way , all the <unk> in the same way they could actually .
+so i can in my trajectory zoom in a specific <unk> .
+here is the state of all of the demonstration , which i have to go and 've given .
+and i can sort everything that today i had been considered to have , again <unk> .
+and when i came back step away and everything to look , i can see my trajectory in new order maybe for my <unk> . here , i decided to <unk> ' searching , here , bing ; you here to live labs <unk> .
+and from here i can in the end to go and they will inflict that .
+it 's a metaphor that keeps it 's used , and every time it does this picture bigger than the sum of <unk> .
+now , in this world , we think that data is a curse those who are .
+we 're talking about curse of <unk> .
+we talk from `` drowning in information . ''
+what if we this situation to turn could and the internet on the upside down , so that we instead of getting from the second thing to go to start by many things too many things go to do , and as a pattern that otherwise , unseen remained , be ?
+if we do that can , then this exceeds <unk> , maybe a new source more sense of information .
+and , instead of just in information to move to do we know it to get .
+and if we know , you know , then we can maybe their wisdom and try and move .
+so i hear on , very much .
+i grew with a <unk> helping science fiction , right .
+in my school got off with the bus an education , every day an hour route .
+
+these curious turns out of course , that i always , when i 'm not in school , through the forests <unk> , and went `` samples '' which collected , frogs and snakes and he heads and <unk> , all of bringing it home and under the microscope kind .
+i was completely <unk> , you know .
+
+
+jacques cousteau came to our living rooms with his amazing event that we animals and places and a world full of wonders they showed that we 'd never had to imagine .
+so that there goes quite well in those <unk> <unk> .
+and i was an artist .
+i could draw . i could paint .
+
+that we had at all . if we as kids a book read , we took the description of the author and projected needs them at the screen in our minds .
+my response was the drawing and paint by aliens , alien worlds , robots , the spacecrafts , and so what .
+
+the creativity has to wait a way out .
+and what happened is something interesting . what i 'm going to jacques <unk> shows that fascinated that was the idea of us completely unseen world here on our planet itself .
+certainly going out , i never an alien world with a spacecraft that point . it seemed very likely .
+but there was a world that i actually ever been able to here on earth , and she was also fascinating and exotic as all the what i always had imagined when i found those books had read .
+so i decided when i was 15 to bounce back to be .
+the only problem here was that i 'm going to a small village in canada lived , 1,000 kilometers from the next ocean from .
+that i let me , but not going to discourage .
+i <unk> my father , until he finally one <unk> in <unk> , new york , down 've done , right on the other side of the threshold where we lived .
+i made my <unk> in a pool of <unk> the middle of winter winds in <unk> , new york .
+the ocean , but , a real creatures , i got only two years later to face where we had to california moved .
+since , in the 40 years , the meantime <unk> are , i spent about three thousand hours in water spent . 300 hours at them <unk> .
+and i learned that the world the deep , even in the <unk> oceans , so rich with <unk> life is how we really hard to imagine .
+to imagination of nature knows the limit , naturally as opposed to our own , <unk> human imagination .
+by the present day i am deepest awe of what i look at my <unk> see .
+and my love to the ocean , holding on , the same intensity as <unk> and the time .
+and when i then grown a profession <unk> , it was the <unk> .
+this seemed the best way of my inner drive , stories to tell , with my need to reconcile to create , to unite .
+when he drew me constantly <unk> and so .
+so these films in the way of images and stories <unk> . that fit together .
+clearly were the stories that i <unk> , from <unk> `` the terminator , '' `` aliens , `` <unk> . ''
+of the `` <unk> '' i could my penchant for the <unk> and that come with <unk> space .
+so intertwined when we kind of my two passions .
+something interesting happened to `` <unk> '' : for a <unk> problem in this video to solve -- and that we had such a kind of liquid <unk> create -- that we took on <unk> animation , <unk> , back .
+what turned out , was the first <unk> <unk> that 's ever in a film to see it was .
+
+according to arthur clarke 's law 's traditionally <unk> technology and the rocket all right off to tell .
+they saw so something magic .
+and that i found is terribly exciting .
+and i said , `` wow , this must have done in the <unk> be involved . ''
+so we went into the terminator or two , '' my next movie , even more on .
+with <unk> created we visited the guy from liquid metal . the success was completely off , like this effect basic dignity .
+and it worked . again , we had something magic is created . and the effect in the audience was the same , but we embarked on the film is a bit more money <unk> .
+of these two experiences and based , was a whole new world a lot of a whole new world of creativity to <unk> .
+so i started a company , up with my good friend stan winston studio , the in the time the best <unk> and <unk> was . they called `` the digital <unk> . ''
+
+we did actually , and lead us as a while a <unk> .
+but the middle of the 1990s years we realized something that we in <unk> and <unk> -- what we the company , actually started worrying about -- too slow <unk> .
+i had this piece `` avatar , '' written that the <unk> of an visual effects and <unk> effects in the whole new heights push against , with lifelike human , expressive characters , that allows <unk> been produced was . and the <unk> should all <unk> be . and the world would <unk> be .
+but the <unk> put quite happened . and people in my company , said that we temporary n't been able to be that to make .
+so shifted to taking those other film about the big ship , the fall .
+the <unk> i 'm going to `` romeo and juliet is on a ship everything else sells . it was a <unk> epic <unk> , a passionate film .
+secretly , but i was actually going to the real wreck the titanic <unk> .
+so i the film did .
+this is the truth . the studio knew that is not .
+i draw you believe that by i said , we try to the wreckage . we film at the real wreck .
+we 're actually in the <unk> the film shows .
+this is hugely important . it 's a good <unk> for marketing . ''
+and i <unk> you , an expedition to settle .
+crazy . but that goes back to look again , that your imagination a reality rendering it .
+
+this was no movie , no <unk> , that was really .
+
+and the level there were huge ; we 'd have cameras and light and all sorts of building .
+and i noticed at how much of these <unk> , a <unk> similar .
+well , they were also <unk> and <unk> <unk> planning .
+it gets into the capsule , floating in this dark , hostile environment just down , where no hope for saving enough , when you do n't even back to do .
+and i said , `` wow , that 's also , being in a <unk> .
+this is really cool . ''
+i was really obsessed by studying the deep .
+anyway by the part of the with curiosity and science has to do . it was all . it was exploring , it was curious . it was an imagination .
+and it was an experience that i hollywood 's not be able to .
+
+in some of the following expeditions i beings in <unk> seen , and sometimes the things that i never seen before had , sometimes even things that ever yet nobody ever seen before had and for the science is the moment when we saw her , still no words had found .
+it made me now really transformative , and i wanted more .
+and so i met then one thing that particular decision .
+after the success of `` titanic '' i said , `` okay , i want my <unk> as a filmmaker , in hollywood to ice will put them and i 'm going to a while <unk> . ''
+and then we started , we dropped to the bismarck , '' and i explored in them <unk> .
+we returned to train wreck the titanic back .
+we took a little robots that we built were out a <unk> <unk> .
+our intention was , <unk> and look inside the ship to see what ever done has been .
+nobody had ever inside the <unk> explored . they were still no resources in favor . so we evolved to build a technology .
+well , and there , i 'm now , on the deck of titanic , in a <unk> , and see <unk> that these <unk> here 's very similar , and which i know that once the band performed there 's .
+and i am a little <unk> through the aisles of the ship .
+i 'm going shopping it 's actually just , but my consciousness is within the car .
+it felt that looks like i physically in the <unk> the titanic here .
+
+this set of this is an exact replica of <unk> the ship .
+so that was a very strange experience .
+they made me this <unk> know that if you have such <unk> avatars and work as your consciousness in the vehicle , in these different form of existence embarrassed you .
+it was really quite profound
+and maybe even a little out toward the thing that maybe in a few decades can happen , if you <unk> has to look at or other things to do , in all sorts <unk> <unk> , that i was as <unk> can imagine .
+after these expeditions we started what we down there 'd seen , really appreciate to learn , like this <unk> where we these incredible amazing animals saw . that 's kind of alien , but here on earth .
+they live with some sort of chemosynthesis .
+it exists not in a lot of sunlight based system , how we do .
+and so you see animals , the next to a $ 300 degrees centigrade , we call them to survive there can .
+the same time that interested in which i also very for <unk> , that was the <unk> from my childhood .
+and so the plane i with people who , for space that interest and with the nasa , about and in <unk> and sitting right <unk> planning -- they travel through russia , through the mission that <unk> protocol , branching systems all right and turn to fly up to international <unk> and take our <unk> with .
+this was fascinating .
+but ultimately , it was point that i <unk> with us in the deepest took .
+i took them with and <unk> you access to the world upside down there : <unk> , <unk> , people who , for such extreme conditions interesting . i took them to the vents at , so you will lay sample , take and instruments , test could and so forth .
+we turned out documentaries of powered but the science , specifically , <unk> .
+so lock into the circle anywhere from my existence as <unk> , then a kid , and the execution in the reality .
+throughout this <unk> i 've learned a lot .
+i got a lot of science and learn . but now i think they certainly , a director does it can lead to a guide to be like a <unk> or something .
+i did n't make lots of leadership , before i those of expeditions <unk> .
+because at some point i had to tell me , `` what i 'm actually here ?
+why i do it ? what comes out ? ''
+these stinking movies are bringing us no money on .
+we play time on the <unk> a . of fame was not a trail .
+all think that i was between `` titanic '' and `` avatar . <unk> and i 'd let me some level of nails on one towel the beach tweaked her .
+i 've all those movies , the documentaries for a very small audience did .
+not a fame , no pleasure , no money . how do you just ?
+you do about the task will to the challenge will -- and the ocean is the most challenging environment that there are . you do the <unk> because , and because of funny connection that occurs when a small group of people a team , it forms .
+because we 've all this with only 10 or 12 people did , the years , broadcasting worked out . sometimes we were two or three months in a row at sea .
+and in this community , you realize that the main thing is becoming aware is that we 're going to each other words , because you a task <unk> , that you any other that can explain .
+if you on land back and saying , we had to do , this fiberglass , the <unk> , and that all around , the whole technology , and the trouble , the human capability , if you look at sea works , '' then you can see the other just not explain . that 's the police or with soldiers that something together through , and we know that they never hear somebody can explain .
+
+so when i came to my next movie `` the avatar , '' to turn , i tried to the same leadership apply that is that you his team of respect and in return of that , culturally recognized .
+it was the dynamics really changed .
+i stood there so again with a small team up with unknown <unk> . we turned on , the avatar , '' with a new technique that it previously had never happened .
+immensely exciting .
+a huge challenge .
+and we went for a period of a half years to a real family .
+it changed my kind of movies , doing up .
+there were people who said , we would these <unk> do n't really good <unk> and on planets pandora transport .
+for me it was more a <unk> kind of my job to do the actual process which is a result has changed .
+what we can sort of all this to finish ?
+some lessons we 've learned ?
+i believe that number one is the curiosity .
+it 's the <unk> human feature .
+our imagination is a power that even a reality rendering it .
+and the aware of your team is important than all <unk> this world .
+come to me kid filmmaker , which says , `` give me some advice , as i do that can . ''
+and i say `` <unk> do n't even a .
+it 'll get on others to you . do n't get yourself to bet , not for themselves . but take risks for you . ''
+so nasa has managed to <unk> `` failure is not an alternative . ''
+but in art and while researching to fail an alternative to be , because there guarantee it a <unk> .
+no big endeavor , which innovation insisted that was ever done without risk of being addressed .
+you must be willing to build those risks on to take .
+it 's the idea that i think you want to focus on the way to give you . failure is quite an alternative , fear and is no . thanks .
+today i 'm going to you about energy and climate .
+and this surprised maybe something , because my <unk> at the foundations are mainly about vaccines , and seed is to the things that we create and deliver have to the poorest two billion a better life to reach .
+but energy and climate is incredibly important for those people , if we 're even more than anyone else in the planet .
+<unk> means that their <unk> over many years n't grow . it 's too much or good enough to rain . the things going to come out change how it their fragile environment , possibly could bear .
+that leads to <unk> . it leads to uncertainty . it leads to riots .
+so , a <unk> bad for you see them .
+secondly , the <unk> for you very important .
+in fact that when you can only one thing the price down to be able to be <unk> if energy by far the <unk> .
+now , the <unk> is about the time , like .
+actually based on the <unk> on <unk> .
+the <unk> pushing the industrial revolution in and even at the 20th century , they saw a <unk> case in <unk> and so we have refrigerators -- <unk> , we can modern materials for manufacture and so many things .
+we 're so in a wonderful point using electricity in the wealthy world .
+but if it 's the price down -- we let us the prize a half -- we make a new boom and this barrier in hiv/aids co2 down .
+co2 warmed the planet and the equation for carbon is actually quite clear .
+they <unk> the <unk> co2 , which is to <unk> lead and this <unk> has some pretty negative effects . effects on the weather and maybe terrible thing that indirect result that the natural ecosystems , such <unk> changes not able to fit and sort of the whole systems <unk> .
+now , the exact correlation between a <unk> and the it was resulting <unk> and where are very unexpected consequences are , there 's some grapple with , but not very much .
+and there are safe obscurity about how bad those consequences will . but they 're incredibly severe head .
+i have the <unk> times say , `` we really have down to near zero to come ?
+not enough to the half or a quarter ? ''
+the answer is , until we are near zero , is the temperature on rising .
+so it’s a big challenge .
+it 's very different than to say , we have 3.5 feet high truck , the under a $ 3 feet bridge from each other . you can then put them up and squash it .
+so this must be further down , to zero .
+
+every american about 20 tons . people from the poor countries , less than one .
+on average is about five billion tons for everyone in the planet .
+and somehow we have to change evoking the to zero down .
+it 's been decrease up .
+just different economic transformations are about it impacts and we have a lot of <unk> rise of reduction and go to a reduction in america to zero .
+this equation has four factors . a little multiplication -- you have this thing left -- carbon dioxide -- that it towards zero to make people want and that by the number of people around , of the service that every man on average , uses of average energy for any service and to carbon that per unit <unk> will .
+let 's so every single factor of individually and look at think we , how we got to zero to get .
+probably have a those numbers very close to zero from .
+now this is the basic algebra , but let 's about it through .
+first we the population .
+today life was 6.8 billion people ,
+and it is happening at 9 billion over to . the controversies at 9 billion to move .
+if we 're very successful with new <unk> , the <unk> and <unk> are we could do n't think about 10 percent or 15 percent down , but right now let 's a slope to 1.3 .
+the second thing is the services , that we use .
+that includes all , the food that we eat , clothing , tv , heating .
+these are very good things and <unk> means , those services , almost any of the planet open to .
+it 's great that this number drops .
+in the wealthy world , in the top billion , we could possibly stain me make and less value , but on average is that number of every year are growing up and so collectively , more than double , the number of services the per person delivered to be .
+here 's a very basic service . there at home light to have the homework can read ?
+and those students did n't , so they go out and reading your <unk> under the <unk> .
+now , in efficiency , the e , the energy per service , i finally good news .
+we have something that 's not up ,
+because of different successes in <unk> , from other <unk> , through new ways in <unk> , there are many services -- which is pretty some of those services , let 's characterized by 90 percent decrease .
+in other service , like the manufacture of <unk> , 105 <unk> -- <unk> <unk> or the <unk> or <unk> , is the <unk> for improvement very much lower .
+there , if we optimistic is , we have perhaps a reduction in a factor for three or maybe for a factor of six .
+but with the first three factors , we 're going to form of 26 billion dollars on it might <unk> 13 billion tons commercializing , and that comes not going out !
+we look so the fourth factor of -- and this is a key to be -- this is the amount of co2 as per unit <unk> will .
+it turns out the question , if you that to zero to get .
+if you coal burn : no .
+if you gas burn : no .
+almost every <unk> for electricity <unk> today , co2 , except that renewables and rocketry passion .
+so what we on a global level need to do is a new system to make .
+we need <unk> .
+now if i the term `` wonders of a feature , i mean not the impossible .
+the microprocessor is a miracle . the computer is a miracle .
+the internet and of services is a miracle .
+people here have to the creation of a lot of the miracle that contributed .
+normally do n't a deadline of having a miracle to a certain date needs .
+usually if you basically just wrong and there are going to others not .
+in this case , we need but floor to give and a miracle in very long time .
+now , i wondered how should i really <unk> ?
+they have a natural <unk> , a demonstration of the idea of people here passionate ?
+i remembered looking at last year , when i mosquitos , brought and somehow i liked the people it .
+the idea was for you very palpable , you know that we have the people who speaks to mosquitos life .
+for energy i noticed this one .
+i decided that the <unk> of fireflies make my <unk> contribution to environment that would be here .
+here are so some natural fireflies .
+it has told me that they do n't bite . actually you will probably wo n't even the glass , abandoned .
+now , there are all sorts <unk> like this , but they bring everybody 's not much .
+we need to find solutions , either one or any number of a tremendous scaling up and how incredible dependability . there and while it many ways is where people seem to look , i do see just five that these big demands is capable .
+i tides , <unk> , merger and use biofuels , playful .
+they do is perhaps the moderates contributions and if you better to do when i expect , that would love , but my statement is that we could take all those five to work and we ca n't of them up , because they were approached it , because all have significant problems .
+we look at first of the burning fossil fuels , start burning of either coal or gas .
+what you get there 's going to think maybe just , but this is n't know . you 'd all the co2 that after the burn off the <unk> comes to capture , under pressure <unk> and then kind of storage and hope that there 's left .
+
+if you 're going to make sure ?
+who can be not guarantee , which literally a billion times bigger than any kind of waste to recover from <unk> and other things can imagine ?
+this is a lot of volume .
+so this is a tough <unk> .
+now , `` my rocketry passion .
+they also has three major problems . the cost , especially in <unk> countries are high . the question for certainty that you really feel that nothing wrong can go , despite the human and abilities that the fuel not for weapons 's used .
+and what makes you 're going to the garbage ?
+because although he does n't 's very large , they have a lot of concerns .
+so three very thorny problems that might even soluble , and where you so my work should .
+the last three of five , i 've summarized .
+there are those renewables , how they often be called .
+they also have -- although it is great , you to make any fuel needs -- you have some downsides .
+one is the <unk> that these technologies create dramatic less than the of <unk> .
+these are <unk> , you talk of many miles , <unk> more land than a normal power .
+
+the sun shines not all day , it seems to choose not every day and just blows with the wind carries no time .
+so we need to get from these vents 's dependent on , a way , the energy in times when they did n't available , is the elevator .
+there are so large <unk> . there are challenges of transmission . if we already saying that the power outside the country is , you do n't just the technology , they do need to the risk around that the energy from where different heritage .
+and there are the <unk> .
+and about dimension to show , i 've all kinds of batteries , who are made , looking at the to cars , computers , phones , <unk> , for everything . and i did with the amount of electronic energy , which the world 's using , compared . i found that all my batteries , which now we produce , less than 10 minutes of <unk> camps now .
+we need 's a big advancement , something that around a factor of 100 be better than is , when the approaches , right now .
+this is not impossible , but it 's not easy .
+this happens when you try and this <unk> sources of what would say , 20 percent -- 30 percent of the rest of bringing them .
+if you hear about 100 percent to sustain want , you do an incredible <unk> .
+now , where do we go , what 's the right approach ?
+one of manhattan project , '' ? how we come to target ?
+what we need are many companies that working . hundreds .
+in each of these five areas where we need least 100 people .
+so thank you 'll say that are crazy ! it 's good .
+i think there in the ted community are many of activities , there are engaged .
+bill big has several different companies , including a name of <unk> the great <unk> has .
+<unk> <unk> invest in dozens of business were great things do and interesting ways , and i 'm going to support .
+nathan myhrvold and i pay a company that , may surprise , the nuclear way around .
+
+
+this <unk> means that you rather than one part of <unk> , the one percent of the <unk> , we decided to the 99 percent of burning , the <unk> .
+it 's quite a crazy idea .
+but actually did you have already been thinking , but you could never reasonable simulate -- whether it would work , but since it modern supercomputer to have to do you simulate fog and see that : aye . with the right <unk> , it looks like that it <unk> .
+and because you that 99 percent is burning , is the <unk> very much better .
+actually burning you the garbage , and you can even the waste of today reactors operate as <unk> use .
+instead of about the head to break they burn it easy . a great thing .
+this uranium is called incremental uses , a bit like a candle .
+you see that 's a column , is often calls `` a traveling wave of reactors . labeled here .
+that solves really the <unk> .
+here 's a picture of a place in kentucky .
+this is the waste , the 99 percent . you have the part of today , burn it , <unk> so it says <unk> uranium .
+the boxes the u.s. for hundreds of years on .
+and if you <unk> inexpensive and just <unk> , you get plenty of fuel for the rest of the lifetimes of the planet .
+you know , there are still having many challenges , but it 's an example of many hundreds of concepts that we need to move forward to come .
+and think we , how to our success rate about .
+what should we had a testament to be ?
+now , we go up to target that we need to reach and then talk about the <unk> .
+many talk from an 80 percent reduction by 2050 .
+it 's really important that we go get .
+the rest of 20 percent are in the poor countries be produced , and still something that agriculture . hopefully will <unk> and cement known to clean his .
+so to prove that 80 percent to do have to the <unk> , including countries like china , their <unk> completely change .
+the other note she says , whether we have the <unk> technology using it , if you in all the developed countries used is and we on the way , you to the rest of the elevator .
+that 's great deal .
+this is one key that <unk> .
+if we from there back -- how should those 2020 testament to be ?
+it should come back the two elements of contain .
+we should the <unk> , use to reduce the way to gain , less money we <unk> , the lower than is the <unk> be , and also the temperature .
+but actually is this note for the things we do that does n't fully to the big <unk> is take all right , or even slightly less important as the other , which the rapidity of innovation for this breakthroughs itself .
+this breakthroughs , we need to floor to track and that we can measure , in <unk> , in <unk> and <unk> .
+there are many great ideas about this topic .
+
+and you are actually going through and create a framework where this wide talk to basically , because we need to support of all sides .
+there are things that come together to .
+this is a request .
+a very <unk> wish that we this technology to invent .
+if you me just a wish for the next 50 years to allow that i could the president to choose , a vaccine for years and i love , or i could this desire to choose who is , <unk> <unk> without adding co2 being invented in this wish i would take me .
+this has the biggest impact .
+
+what we have so i do ?
+for which measures <unk> me ?
+we 're for more funding to use .
+if countries in places like <unk> make , they should not only about carbon to talk .
+they should those <unk> talking and they were shocked by the silly little money that for that cutting-edge approaches to spend them .
+we need <unk> , carbon taxes , <unk> & trade something that a <unk> do .
+we need to spread the message .
+we 've taken off dialogue rational and <unk> lead and also the things that from the government be done .
+it 's an important wish , but i think we can see him meet .
+thanks .
+thanks .
+thanks . thanks !
+thanks . just to <unk> something better to understand -- first place , you can take an idea of scale that investment be ?
+bill gates : to the simulation in a supercomputer to conduct , all the great scientist to get what we did we need to just some 10 million . and even if we our materials in a russian reactor was tested have to ensure that it properly works , one is just in the <unk> million .
+the tough to step is the building in the first <unk> , another billion to find that <unk> and the place in fact , the first of building .
+once the first is finished , if it that 's as i promised , it 's clearly , because the economics , the <unk> 's not like rocketry that we know it .
+
+bg : yeah . now you have the reactor ever seen <unk> , so there are many people and lots of monitoring that go wrong can . this thing where you get it opens and stuff come to cause . that 's not good .
+but if you very cheap fuel , you can kind of 60 years <unk> -- think about a column , they bury them , without the <unk> .
+and it sits there and burns : 60 years and then it 's done .
+a <unk> who are a solution to the garbage is offering .
+bg : yeah . so what do with junk that happens : you can see him sitting in real time -- there are much less junk shot with this method -- then take them , and grab him in the next reactor and burn it on .
+and we start , by the garbage can take that has already exists , the rule in <unk> or <unk> of reactors is . this is our <unk> .
+so this is what we give these reactors run a problem was , what we in our fill and so that will <unk> dramatically reduce in that process .
+but while you with multiple people that world of these opportunities 've talked ,
+where is the main interest , so what actually implement ?
+bg : so we 've never existed on a place organized and there 's a lot more interesting <unk> for all the `` nuclear '' in the name is wearing . there are passion and people are the company was in russia , india , china is , i was here and have the energy met and talked about how it 's going to <unk> does .
+i 'm optimistic . you know , the french and japanese have something in the way home .
+this is a nuance of thing that was done .
+this is a crucial step forward , but it 's like a faster reactor and some countries have this building , that is anyone who 's a whirlwind reactor was implemented , a <unk> for our first .
+in your imagination , <unk> and more likely to this really in to call ?
+bg : so we need one of <unk> , <unk> things that we 're very affordable , we secured 20 years to create and then 20 years to use .
+this is like the deadline , giving us the <unk> has illustrated that we <unk> need .
+and , you know , <unk> , if all good racing , and this is a big wish , this could easily , often .
+and fortunately it 's dozens of companies , and we needed hundreds of those who likewise , if those approaches worked , the funding for its operator to work , for <unk> can .
+and it was best when it 's a couple of creating , because then you could a mixture use .
+certainly we need a solution .
+
+bg : a <unk> is the <unk> .
+it would n't even without the <unk> been , but the power that there are so much more .
+the nuclear sector has some innovative companies .
+you know , we know their work not just about this , but there are modular way that 's a different approach .
+
+and so there are many things , but this nice thing is that a <unk> a million times as much energy has the way , say , a <unk> and therefore , if you with the problems lies can and they are mainly the radiation , the footprint and the cost , plays the potential , so the impact on the country and other things , almost in your own league .
+if it does n't , what ?
+we have to <unk> come to try to the rise robust to hold ?
+bg : if you in this situation , does it 's like when you ate too much , and shortly before a <unk> you can . what makes you have happened ? you know , maybe a <unk> or anything .
+there 's a <unk> the <unk> calls that are doing with various techniques trying to the warming to delay , so we 20 or 30 years longer be having to us <unk> .
+this is just a <unk> .
+you pray that we do n't need .
+some people say , you should not only on the cover designs because one that might be lazy you do so you go eat , because you know that one of the <unk> save it .
+i do n't know if this smart , if you look at the importance of this problem looking at leads , but there are now of the social discourse in <unk> about whether it available to have , if the things faster , or this innovation longer need to when we expect .
+<unk> : you have one or two lines for the to you may be able to convince them ?
+bg : well , it’s real life , the skeptics in very different <unk> .
+those of the underpinning the case , at that are very little .
+they say that there are negative effect is that with the clouds to do , things are shifting ?
+there are very , very few things that they 've ever be able to ask , which have an opportunity in a million there .
+this <unk> here 's like with aids .
+you make the mistake now , and you work pays very much later .
+and so is the idea , now , if you all sorts <unk> is struggling with something to invest , one of you will actually what happened -- and there 's that the investment not that 's clear . actually is the ipcc report did n't necessarily the worst possibility and there are people in the wealthy world , on the ipcc are really look and say , okay , that 's no big drama .
+the fact that this uncertainty us should worry .
+but my dream is that , you had the economic can do , and , at the carbon over , then also say the skeptics , `` okay , there are interested in i do n't know it was no carbon <unk> , i wish provides nearly there is the bad , but i shall not accept that because it 's cheaper than the previous one way . ''
+and that would your answer to the <unk> <unk> argument that if you all this time and energy use to the co2 problem to solve , all the other goals suffer , the <unk> who confront of malaria and so on that it 's a stupid waste of resources , is money to invest , as it better give things that we can do .
+bg : well , the actual spending to research -- let 's the u.s. government should be 10 billion per year , spend when they do today -- that 's not quite dramatic .
+one thing the other things not suffer .
+you come up to big <unk> , and here we can bring sensible people disagree about when you have something that was not economic inequality , and you 're trying to fund . for me that 's happening here most of waste .
+unless there , it 's very shortly before a <unk> and funded the only have the <unk> . i think we need more things are trying to the potential , very much cheaper to be .
+if the <unk> that you get , a very high <unk> , it can only the rich stay .
+i mean , all of us here could five times as much for our energy on without his lifestyle to change .
+for the bottom two billion , but it 's a calamity .
+and even <unk> think about .
+his new <unk> is now , `` why is the research is not talking about ? ''
+he 's still , because its former stories , with <unk> associated , but he understood that 's a very lonely group is and so he will now this <unk> .
+
+the research , it 's just nuts , how little girl who supported it .
+bill , i think i speak for almost all people here , if i say , i really hope that your desire to pass it . thanks so much .
+bg : thanks .
+a few years , at ted , apropos of peter <unk> a <unk> called the <unk> '' ago .
+the idea is pretty straightforward . <unk> have to achieve <unk> structure with 20 <unk> , it 's about <unk> tape , it 's about <unk> thread , and a marshmallow ; building .
+the marshmallow 've got up on the head .
+and when there really just seems , it 's actually really though it because people are staring us very quickly to cooperate .
+and so i thought this is an interesting idea is that i and it into a <unk> turns out .
+it was a huge success .
+i 've been estimated 70 workshops world 's done , with students , developers and architects , even with <unk> the <unk> and there is some of this task , what deep impressions in the nature of collaboration enabled and i want some to share with .
+usually they start the most people themselves in terms of task to orient .
+they talk about , you think , how it 's look , they wrestle for power ,
+then they invest a little time in planning and organization . you drawing , putting <unk> out .
+
+and finally , just before they do n't go to have more to lose somebody a marshmallow and they put him gently move into the top , do n't just step back and `` <unk> '' ! admire their work .
+what but then , almost always , happens is that the `` <unk> '' to a <unk> '' is , because it knows the marshmallow does that the whole thing that actually curls and <unk> .
+there 's a series of people are much more `` <unk> '' <unk> have to other , and among the worst , fresh <unk> .
+you lie , they cheat , they are confused and make really <unk> shapes .
+so obviously there also team that much more `` <unk> '' <unk> , and dropping below the best , fresh alumni of this kindergarten .
+and that 's pretty amazing .
+how our loved peter told they produce more than the highest towers , but the interesting structures of all .
+what you may be wondering is , what is that ? why ? what about whom ?
+and peter 's telling : `` none of children spent time in the head of <unk> <unk> to be . ''
+they spend any time in <unk> .
+there are , but yet another reason .
+and that is that <unk> trained that were the a real plan to find , ok !
+it and then one realized .
+then what happens when you the marshmallow for the top to grab , you have no time and what ?
+it 's a crisis .
+sound familiar , what ?
+what <unk> do differently , is that it with the marshmallow is beginning and prototypes to create a successful prototypes , always with the marshmallow on top , so that they many times have an opportunity <unk> prototypes to fix .
+constructionists see this kind of collaboration as a core of <unk> <unk> .
+and with every attempt to get their immediate feedback , what works , what does n't .
+so is the performance , using prototypes to work , a lot -- but let 's a sudden , how other teams of imagery .
+the average for most 's around about . <unk> , <unk> create the half of lawyers bit better , but not much , <unk> are better than the adults .
+who is the most successful ?
+architects and engineers , thankfully .
+<unk> is the ultimate thing i 've seen .
+and why ? because they are triangles and understand <unk> geometric patterns are the key to build systems to build .
+ceos are about average , but here it gets interesting .
+you put a <unk> administrator at the team , they become significantly more .
+it 's unbelievable . you see around and see , `` this team will win . ''
+you can predict . why does this ?
+because they have special faculties to the <unk> have .
+they pour the process , you see him .
+
+<unk> skills and <unk> and combined , lead to succeed .
+if you 10 teams have that typically do you , you ca : sixth need to build systems have .
+i tried to now we really exciting .
+i thought that 's bring the <unk> same .
+so drastically , i a <unk> dollar prize to software for the winner .
+what you think happened with these <unk> ?
+what was the result ?
+so this happened . not a team had to build a structure .
+if someone 's a <unk> high construction built had , he had the paycheck home and worn away .
+so it 's not interesting that high <unk> a powerful effects of ?
+we reenacted this exercise with the same school students .
+what you think happened here ?
+well understood the advantage of the <unk> . ''
+so i incautiously turned out that same bad team of the best .
+they produced the highest construction in the single time .
+there are sort of the <unk> lessons for us , about nature of panic and success .
+you might ask : why would somebody actually time to invest a <unk> to create ?
+the reason is , i <unk> digital tools and processes to build out teams to help , cars , games or `` <unk> <unk> '' to create .
+and what the <unk> does is , it helps you find hidden assumptions out to identify .
+because , frankly , each project has its own marshmallow .
+the challenge is offering a shared experience , a common language , or ethos , the right prototype in making .
+and this is the value of the experience , this as easy to practice .
+and those of them as there are interested , can <unk> visit .
+it 's a blog , where you see how to the marshmallow is building .
+there 's a <unk> there .
+they 're crazy examples from all around how people the system telescope and <unk> .
+there are also <unk> .
+and the <unk> lesson , i think is that structure actually a <unk> sports is .
+it requires that we all our senses at the task to fix them , that our thinking optimally use the way our feelings and we do , in the challenge that before us about .
+and sometimes it 's a small prototype of the experience anything that it takes , it from a `` <unk> '' -- to a <unk> '' moment to bring .
+and that can a big difference do .
+thanks .
+we do something like we have a machine ,
+a big machine , a cool , <unk> machine , and this is a certain .
+and everybody in this room has to skeletal muscle .
+and you have to the past go , you can in the future go ; they can not in here and now can stay
+and i wonder what they would choose , because i my friends recently , often asked this question , and they wanted everybody in the past go .
+i do n't . they wanted to the time ago , before it cars were or twitter or `` america in seeking the superstars . ''
+i do n't .
+i 'm convinced that you kind of nostalgia , to <unk> drawn is .
+and that i understand .
+i 'm not part of the group , i must say .
+i do n't want to the past , and not because i have a explorers am .
+it 's because that capability on earth 's not go back , you go ahead .
+i want so in this machine , and i want to the future of the way .
+
+there was never been a time as that .
+my <unk> dying every once they got 60 were .
+my grandparents urged her that number to 70 .
+my parents are the 80 percent to hurl the .
+there was so good as a nine as i started <unk> are .
+but it 's not going to people like us , because it is a larger point of this .
+a child , today in <unk> 's born can wait long as to live as the richest man on earth are 100 years ago .
+think about this . that 's an amazing fact .
+and why is that ?
+the smallpox : the smallpox was a billion people on earth 's killed .
+they have the demographics of earth in a way of new form , how it 's no war ever managed to .
+they are out . they 're gone .
+we have you <unk> . oxide .
+in the wealthy world are diseases , the millions of us from the only one generation also threatened , barely finished yet .
+<unk> , <unk> , <unk> ...
+if you know anything else that somebody , which is ?
+vaccines , modern medicine , our ability to billion people to feed , that 's both successes of scientific method .
+and in my view is the scientific method -- things to try to look , whether it works , it change as it does n't strike , the greatest achievements of humanity .
+so this is the good news .
+sadly , it really all the good news , because there are some other problems , and they were frequently i mentioned ,
+and one of which is that in spite of all achievements , a billion people around the world every day hungry going to sleep .
+this number drops , and she gets very quickly , and that 's embarrassing .
+and more than that , we have our ability to be used , this planet properly account for <unk> .
+drinking , <unk> country , rainforests , oil , gas , they disappear , which was soon , and if we 're not from this chaos <unk> disappearing , we also .
+the question is : we can do that ? i think that .
+i think it 's clear that we eat food can make that billion people feed , without the country , on her life , to rape her .
+i think we can see the world of power , you are not with it destroyed .
+i believe that really , and no , that 's no <unk> .
+but this keeps me at night awake , one thing that 's look at night awake , often . we have scientific advances are never been desperately to come like now , never ,
+and we were also never been able to properly <unk> , as we of it can .
+we 're on the cusp of an amazing , amazing event in many places . and yet i think in fact that we are hundreds of 300 years ago , the enlightenment go back , had to create a time to find where we progress detriment , where we used to make these massive <unk> have , at all fronts as well .
+people of the husks of their faith , which was so intimately that you could n't want to dig it .
+n't even the truth will they free .
+and listen , everybody has a right on his mind , even a right on his view of progress ,
+but you know what you , there are right ?
+they have no right for their own data . <unk> , it did n't .
+and i have a while needed to determine this .
+back about a decade , i have an article on shots for the new yorker , '' written , a little paper .
+and i was amazed at the resistance to bump , in opposition to what the end of the effective thing . within health in history of humanity 's .
+i did n't know what i should do , so i did easy thing i do , i wrote an article and continued .
+and soon i wrote an article about <unk> changed the food .
+the same thing , only bigger .
+people were going berserk .
+so i also about an article written , and i could n't understand why the people thought that was `` <unk> , why they believed that molecule increases in a particular , instead of an accidental kind <unk> a <unk> on the area of nature was .
+but you know , i do what i do . i wrote this paper , i went on .
+i mean , i 'm a journalist ,
+we tap , we join a , we eat out that 's okay .
+but these articles were doing was worried , and i could n't want to discover why , and i would eventually it out .
+and that 's because that these <unk> to me nuts were doing does n't <unk> were .
+these were <unk> people , educated people you 're decent people .
+they were just like the people in this room .
+and i was such total kludge .
+but then i thought , you know what , let 's face .
+we 're at some point , where we actually not the same proportion of progress , as before .
+we talk <unk> it .
+we talk about it ironic that , with small quotes about `` progress . ''
+okay , for this case , and i think we know which causes these are .
+we have faith in institutions , in authority , and sometimes in the science to be lost , and we have no reason you 're not that should be .
+you can just a couple of names call and people will understand .
+chernobyl , <unk> , the challenger , <unk> , <unk> that <unk> 2000 .
+i mean , you know , you can tell your list vote .
+there are questioning and problems with people that we believed that they always right . so be skeptical .
+so you ask , costing them evidence , costing them evidence .
+take nothing for granted .
+now they get ready , if you evidence to get you have this evidence to assume , and there are not good .
+and i can go from the reason to say that we go to an epidemic of fear life , i do you never seen , and hopefully will never see me .
+back about 12 years was a story posted , a horrific story that the <unk> with measles , <unk> , and <unk> vaccine appeared in connection made me .
+very scary .
+tons of studies were done to see whether that true .
+tons of studies should be conducted . that 's a serious business .
+the data came in .
+the data came in , from the u.s. , from england , from sweden , from canada , and they were all together , any correlation , no link , no .
+it does n't matter . it does n't matter , because we of anecdotes think we believe what we see what we look at believe what does that we really feel .
+we wo n't think about a bunch of documents from a <unk> , of us data , then i understand that , i think we do all .
+but you know what ?
+the result was devastating ,
+devastating , because of this fact : the u.s. is one single country in the world where the <unk> to get measles down .
+this is <unk> and we should become embarrassed .
+it 's horrible .
+what happened that we do that could .
+now , i understand that . i am .
+because it does anybody here measles ?
+has one in the audience ever hear somebody who get measles dying with this ?
+does n't very often .
+happening in this country 's not , but 160,000 time in the last year .
+these are many deaths from measles , 20 per hour .
+but because n't it 's happening is , we can crowd out , and people like jenny mccarthy can walk and sending messages of anxiety and illiteracy , platforms like watching oprah and larry king live preach it .
+and that you can do , because they cause and correlation should n't fused .
+they do n't that these things does seem to be , but virtually never the same ones .
+and this is something that we have to learn , which is very quickly .
+this guy was a hero , jonas salk .
+
+not fearful , no distress , <unk> phew , disappeared .
+the guy in the middle not so much .
+he says , paul <unk> .
+he has just with some other people have a <unk> developed .
+he does the lives of <unk> , 500,000 children per year in the developing save .
+pretty well , right ?
+now , which is good , besides that paul pair of and through vaccines that speaks says , how valuable they are , and that people just need to stop to complain .
+and that says he actually so .
+paul 's a terrorist .
+if paul in a public confirmation talks , he can not without being armed guardians statements .
+he 's getting calls home , because people he likes to tell you know where his children to go to school .
+and why ? because paul wrote a vaccine has done .
+i need to do n't say , but vaccines are essential .
+you put them on to return to the diseases come back , terrible disease , and this is happening .
+we have in this country now measles .
+and that gets worse , and pretty soon , kids back to die , because it 's just a question of numbers .
+and they 're not just get measles die .
+what about <unk> ? take this . why not ?
+a <unk> of mine took me , a few weeks written and told you think i 'm a little too <unk> .
+nobody , ever said earlier .
+they would their children not against <unk> immunized . no way .
+subtle .
+why ? because we do n't <unk> have . and guess what ?
+we had in this country , yesterday , no <unk> .
+now , i know , maybe he got this morning guy in lagos at a plane and fly straight to los angeles , now , he died of ohio .
+and in a few hours , it lands and <unk> a car , and he comes to long beach , and he 's one of <unk> <unk> tonight it has gone .
+and he did n't know that he of debilitating illness or infected , and we know that could n't , because so the world works well time .
+this is the planet , which we live . they do n't , as if it does n't it 's .
+we love this , to lie to the husks of . we love this .
+you have this morning everybody their vitamins to the point ?
+<unk> , a little <unk> , and go on the hops helps .
+i know that they did , because half the americans that every day power .
+they take the stuff , and you take alternative is causing , and it does n't matter how often we find that they are useless to them .
+the data of evidence from the time .
+they darkening them on their urine , more do you almost no .
+it 's okay , they want to 70 billion dollars for the dark side of urine numbers .
+i agree with them entirely too .
+darker the urine , dark .
+why do this ? why do this ?
+now , i think that i see -- we hate the <unk> .
+we hate each one too strong government . we have n't trust the system .
+and that we should not . our healthcare is miserable .
+it 's cruel to millions of people .
+it 's absolutely amazing cold and <unk> to us that it can afford .
+we go so that way , and where do we ?
+we walk into the poor of <unk> .
+it 's fine . i love the <unk> .
+but you know , that 's quite a serious business , because this stuff is poo , and we spend a billion dollars for quieting down .
+and i 've all sorts of little props about here .
+none of -- <unk> , again , <unk> , again , <unk> , because i wo n't even what this is , but we spend billions of dollars , looking for , they 're cheating .
+and you know what ? if i say that , scream at the people and you say , `` what anyone cares what you ? let people wo n't do what they want .
+so they feel good . ''
+and guess what you have wrong .
+because it really matter is , what is the minister who is : `` hmm , i 'm the evidence of experts to whom mammography does n't suppose '' or any <unk> , of your patients with <unk> treat want .
+if you look at this road entering , where do believe and magic evidence and science can replace , get them on the place where they do n't be like .
+they go to <unk> <unk> in south africa .
+
+hundreds undue deaths in a country , the worse than any of this disease absolutely will .
+tell me , ah , that these things not a consequence out .
+they have you . that they 've always .
+now , the <unk> epidemic in which we face now , is this ridiculous battle between the <unk> <unk> modified foods and the <unk> .
+this is a <unk> debate . they have to stop .
+it 's a debate about words , about how metaphor .
+this ideology , not science .
+everything that we eat , every <unk> , each branch <unk> , every <unk> , by the people changed .
+you know , it was no <unk> in paradise .
+it was no <unk> .
+it was no christmas trees . we have this all done .
+we have it in the last 11,000 years doing .
+and some of it 's worked and some of this is not .
+we 're <unk> what did n't work .
+now we can be more to do . and obviously there risks . but we can really the beta-carotene , in rice and do , the stuff can million people to help millions of people , their lives to extend .
+that you want to do n't do ?
+i must say that i understand not .
+we cling <unk> changed the food off .
+why do it ?
+so what i always listening is , too many of chemicals , pesticides , hormones , <unk> , we do n't a huge areas with a cause that 's wrong .
+we do n't want that companies are living in flight .
+we do n't want that companies seeds have .
+and you know what my response to all this is ?
+yes , they are right . fix this .
+it is , we have a huge <unk> , but that 's not science .
+so it with science is nothing to do .
+it 's quite fond of morality , <unk> .
+you know that science is not a company is .
+it 's no country .
+it 's not even an idea ; it 's a process .
+it 's a process , and sometimes it works and sometimes not , but the idea that we science -- not allow them to their work to do because we’re afraid of is really a stop-up , and they keep millions of people of blooming from .
+you know , in the next 50 years , we 're 70 percent longer growing food to be the moment . 70 percent .
+that investment in africa in the last 30 years .
+shame . ashamed .
+they need that , and we give you 're not .
+and why ? <unk> changed the food .
+we want people not to encourage that <unk> stuff to eat , like <unk> .
+<unk> is something that a half billion people eat .
+it 's sort of a potato .
+it 's just a bunch more calories . it 's miserable .
+it has no resources , it 's not a protein , and scientists building it all right at a .
+and then you might ask people the food and would n't see them .
+they would n't starving , and guess what ?
+if so beautiful . it would n't <unk> <unk> , but it was pretty .
+and everything that i 'm going to say , this is : why stop it ?
+i mean , we wonder : why stop it ?
+because we 're not genes <unk> want ?
+it 's not about genes <unk> . it 's not chemicals .
+it 's not about our ridiculous passion at hormones , our insisting on , more food , better food , unprecedented act of food .
+it 's not going to the rice <unk> , it 's about people were alive to get , and it 's time again , to understand what this .
+because you know what ?
+if we do n't do if we so on doing as far do we look at a little bit guilty , where we actually , i think , not guilty to be like , high-tech colonialism .
+there are no other description for what happened here .
+it 's acting selfish , it 's ugly , it 's our n't worthy , and we need that 's still stop .
+after that really fun entertainment so you want you might say `` will you still in this ridiculous certain and in the future to go ? ''
+certainly , and let me , anyway .
+now , put them in the present , but we have an incredible opportunity .
+we can see certain everything to imagine what we want .
+we can you <unk> where we do you <unk> want , and we get there is moving , where we want .
+we have these conversations can now , and we need to think , but if we come into a certain up , and in the future of the way we will be relieved that made for .
+i know that we can , and get it my case that 's something that the world needs now .
+thanks .
+thanks .
+for some time interests me for the <unk> . it may weird stuff that 's a magician , really interested , unless there , they look it like me , as a deception , which became somewhat true is that if you just for sure enough to believe . ''
+in other words , <unk> have in some studies a measurable effect on shown that <unk> , which is just because the person thinks about what with it 's going to be a <unk> or a kind of -- in <unk> , for example , there , if the patient , really tightly enough believe , a measurable effect on his body of that the <unk> calls .
+a deception is going to be true because somebody 's like seeing .
+so we find mutually also understanding , i want to go through a fundamental , very simple trick them .
+and i 'll show what it works . this is a trick that least for the 1950s , in every <unk> for kids ' .
+i , saw him from <unk> scout magic of <unk> in the 1970s learned .
+i 'm kind of them out and it 'll explain .
+and then i 'll explain why i would explain .
+so , you see what happens .
+the knife , that you look at that can of my hand , which you look at that can .
+
+i push my sleeve up .
+and to ensure that nothing in my sleeve disappear and of him out , i 'll just my wrist right here <unk> .
+it 's how you can see that look at any time at any moving . as i here <unk> , can zip in my sleeve , villages , or paint .
+and the goal is very simple .
+i 'm going to my hand up , and hopefully , if everything goes well , is the knife by my bare physical magnetics watching .
+it sits actually so stuck on its place that i 'm going to shake it , without having the knife <unk> .
+nothing goes into my sleeve , comes out , no <unk> . and they can study .
+<unk> .
+well , this is a trick that i often a little kids <unk> that concern for magic of doing , because you can help you very much about deception to learn when you specifically looking , although it a very simple <unk> trick is .
+probably know many of them in this room that trick .
+he works .
+i keep the knife in my hand .
+i say that i want my wrist <unk> to ensure that nothing in my sleeve disappears , or out , and this is a lie .
+the reason why i my wrist <unk> , is that at the real secret of illusion is .
+
+wonderful trick ?
+back there is someone who 's not a childhood had .
+so , he 's here . right .
+and if i 'm <unk> , changing the finger in its position .
+and now you could talk about , why this is a deception is why you do n't seeing that down here just three fingers to see is : because the mind and the way that he information processing , they 're not one that matter , one , two , three , but they pack and see .
+but it 's about this is not actually , and then , open my hand .
+
+and when i mean by hand , i close to happen the same using , i <unk> , going through this movement , unseen . the finger to <unk> .
+i assume that hand away . and this is that knife .
+this trick we can get your friends and neighbor to demonstrate . thanks .
+so what does it with <unk> to do ?
+a year ago or so , i read a study that i 'm really just blew up .
+i 'm not a doctor or explorers , and so i was going to me an amazing thing .
+
+
+and that , although almost none of any <unk> -- this is just <unk> .
+but a white pills is not just about a blue pill .
+what ? that made me really freak .
+it turns out what turned out that 's not all is .
+if you capsules that will , are still <unk> as their tablets of every form .
+a colored capsule that look at the end of yellow and across the red is that 's better than a white capsule .
+so do <unk> a role .
+a pill twice a day is not just about three pills -- i 'm not going to capture the statistics remember . sorry .
+the key though , is ...
+... that 's also the doses of a difference .
+and the form a role .
+and if you the ultimate <unk> have to , we need to the needle reach out .
+
+that creates a very powerful image in mind . that 's very much worse than a white pills .
+this graph is really -- i 'm going to another time to show , if you <unk> have .
+fact , is that the white pills not as good looks like the blue pill , which is n't just looks like a capsule that not just looks like the needle .
+and none of it has some really <unk> property . it 's only our believe that goes around with a greater impact lead .
+i wanted to know if i this idea for a trick could use .
+i take something that obviously a deception is , and i leave it really looks .
+we know , looking at the study that you to the needle access to when it 's an enormous amount is about .
+this is an 18 feet long <unk> . it 's very , <unk> . and i 'll give you start a little bit of sterile .
+this is really my meat . it 's not <unk> special cultured meat .
+this is my skin . that 's no <unk> from hollywood .
+i 'll discuss this needle in my skin stick and through them through drive till you on the other hand , again <unk> .
+if you culprit is -- if they easily in <unk> fall -- i did that a few friends last night in the hotel hand , and some people who i did n't , and what 's a woman who almost fainted from .
+so i ago , if you very nasty , then they looking for the next 30 seconds away . or , you know what , i 'm the first sensitive to be part back here is done .
+you can see , you can also <unk> , if you like .
+so , it 's so , right here where my ham starts to the bottom of my <unk> i 'll just a little puncture do .
+does n't really sorry . she does this crazy ?
+and now just a little bit through my skin and on the other way back out .
+now we 're actually in the same condition that we took in <unk> had .
+about .
+but now you can my fingers do n't count , right ?
+so i 'll use them show . this is one , two , three , four , five .
+well ,
+i know what people imagine if you see that .
+they say `` okay , who 's probably not so stupid and <unk> himself the skin , just to us a few minutes to speak . ''
+now , then i 'm going to show .
+what does this out ? pretty good .
+yes , i know .
+and people back to say `` okay . i do n't actually seen . ''
+people in the <unk> get right now in .
+let 's me tell you up close to show .
+this is really my skin . that 's no <unk> from hollywood .
+it 's my ham , and i think that 's <unk> .
+sorry . if you culprit is going to take away , look n't eat .
+people back or the ones that later , eventually , once on video to see , will say , `` well , which is yes , very impressive , but if it really wanted to be , it would -- you see , here 's a hole and there , if it really want to be , it would we bleed . ''
+okay , let me some blood for you <unk> .
+yes , this is it .
+usually i would go through the needle out .
+i would my arm spill-cleaning and you show that there 's not the wounds of us .
+but i think , in this scale here and with intent , from a deception something real time , doing is me the needle in plain is inside , let and so from the stage to go .
+we 're in the next days have a few times each other .
+i hope you enjoy yourself going on . thanks .
+every talk today about the happiness .
+i have some people the number of books they count off that with `` <unk> '' from the headline in the last five years or published by introducing and they gave about 40 up , and there was much more .
+there 's a massive wave of interest in luck of explorers .
+there are very much <unk> .
+and everybody likes to people happy little bit .
+but despite all of flood of work , there 's several different cognitive fall that there were impossible make a clear about happiness thinking .
+and my talk today is mainly by these cognitive take action .
+
+the first of the fall is a <unk> , complexity actually acknowledge .
+it turns out that the word of happiness is simply not a useful word more importantly , because we 're too many different things work .
+i think there 's a particular meaning that 's take a hedge could , but in and large that 's something that we gave up to be , and we are the complicated perspective i think to have on what we comfort is .
+the second case , a really confuses most of experience and memory , basically consists of them between be happy in his life and be happy about his life or happy with his life .
+and these are two very different ideas , and they 're both <unk> in the idea of happiness .
+and the third is the <unk> , and this is the unfortunate fact that we 're not about a circumstance that can think , the well-being is affected , without its significance to warp .
+i mean , this is a real cognitive trap .
+there are just a way , it right -- the elevator .
+now i 'd like to an example start by somebody who 's a <unk> had to one of lectures , of a story told . [ unclear ... '' he said , he had a symphony heard , and it was absolutely splendid music , and very end of recording a <unk> <unk> sound .
+and then put it 's attach , really very emotional , which has the whole experience was ruined .
+but it did n't .
+what it ruins had been the memories of the experience .
+he had the experience anyway .
+he had 20 minutes <unk> music had .
+you care , not because it with a memory <unk> was born , the memory was ruined , and the memory was all that 's going to keep that had received .
+what we 've actually says is that we come over and about other people think we could be in terms of two types of self .
+there 's a <unk> self that in the present those alive and the present know , is able to the past and to experience , but basically just the present time .
+it 's the <unk> self that the doctor <unk> -- you know when the doctor says , `` do now it hurts when i me show <unk> ? ''
+
+or `` what was their journey to albania ? '' or something like .
+these are two very different entities that <unk> self and that <unk> itself , and the two to confuse this is part of <unk> of <unk> about happiness .
+well , that <unk> itself is a storyteller .
+and that starts really a basic reaction to our memories of -- it begins immediately , .
+we tell you 're not just a story , if we can make a story to tell .
+our memory shares stories , which is what we of our experiences keep that allowed is a story .
+and let <unk> with an example start .
+there are an old one study .
+that 's real patients who became a painful procedure that brain scanner .
+i 'm not in detail about . you today is n't hurt anymore , but she was painful , when that study the 1990s was done .
+they were asked , all 60 seconds about their pain , and tell .
+and there are two patients . that 's your records .
+and they 're wondering , who could either of did n't have suffered ? ''
+and that 's a very simple question .
+patient to b is clearly has n't have suffered . his <unk> been longer , and every minute of pain , the patient is a , had had a patient to b , and more .
+but now there 's another question : `` how much thought these patients that they have struggled with ? ''
+and there 's a surprise .
+and the surprise is that patient is a , a lot <unk> <unk> of the <unk> had a patient to b .
+the stories of <unk> were different , and because a really vital part of history is how it ends .
+and none of these stories is very <unk> or great -- but one of them is this shows ...
+but one of them is much worse than the other .
+and that are worse is used to where the pain , really the end up its zenith , was . it 's a bad history .
+how we know that ?
+because we these people by their <unk> asked , and too much later , `` how bad news was the whole thing total of ?
+and she was much worse for a , as to b in the <unk> .
+now , which is a direct fight between the <unk> itself and the <unk> itself .
+of view of <unk> even have b is a clear <unk> time .
+so what you with the patient of a , could do , and we 've actually clinical experiments , and it 's been , and it works , you could actually the <unk> of patient is a vector by just the hose in there has no one of him to shakes things .
+this is going to rediscover that the patient is suffering , but only a little and much less than before .
+and so if you a few minutes has power to internalize that the <unk> themselves from the patient is a worse off , and you have consequences that the <unk> themselves from the patient is a much better off this , because now , patient is a , a better story about his experience history .
+what makes a story from ?
+and this is for the stories that the memory we discover magazine and it true of the stories that we invent .
+
+
+well , that <unk> even live his life grow .
+it are moments of <unk> , one after another .
+and they ask : how about those moments , ?
+and the answer is really simple . they 're lost forever .
+i mean , most moments , a lifetime -- and i did this is focused on , you know , the psychological present considered about three seconds long , which means , you know that it in a life around 600 million of these are . in a month 's about 600,000 , most of you leave no path .
+most of you are completely ignored by <unk> itself .
+and yet they get kind of the impression that they count things that thing during these moments of <unk> happens our lives is .
+it 's the finite resource that we use as we 're in the world are .
+and how we they consume would seem to be important , but that 's not the story that the <unk> itself to we keep .
+so we have the <unk> self and that <unk> itself , and they 're really quite different .
+the biggest difference between them is the deal with time .
+of view of <unk> even if you a holiday and the second one week , just like this is good as the first , it 's the <unk> vacation twice as well the <unk> vacation .
+that does not calling for the <unk> itself .
+for the <unk> itself is a <unk> vacation ridiculously better than the <unk> holiday , because there 's no new memories added up .
+they have the story does n't changed .
+and it 's how is time actually the critical variable that a <unk> itself is different from a <unk> itself . of time , very little difference on this story .
+well , that <unk> make it yourself anymore , as to remember , and stories to tell .
+it 's actually the one of this was making decisions , because if you a patient , the , maybe two <unk> at two different surgeons had and they decide what he chose to do it is the , the votes of the memory , the less bad , and this is the surgeon who was selected will become .
+this <unk> itself has no voice in the election .
+actually choose , we move between those moments , we choose between the memories of experiences .
+and even if we of the future thinking , we think about our future is n't usually when experiences .
+we think about our future for as <unk> memories .
+and basically we can do you look , you know , as a tyranny of <unk> itself , and you can see this <unk> even think more than one that sort of the <unk> even <unk> through experience that the <unk> do n't need .
+i have the impression that if we travel to make this very often the case , which means that we go on vacation largely on services of <unk> itself .
+and that 's a bit hard to justify , i think .
+i mean , how much <unk> we of our memories ?
+this is the reason that for the dominance of <unk> itself is given .
+and when i think about , i think about a vacation that we , a few years in antarctica 've done , who clearly the best to travel was , i 've ever had , and i think quite frequently used in proportion to how often i 'm going to other holidays think .
+and i 've probably from my studies memories of these <unk> journey , i would say about 25 minutes in the past four years <unk> .
+now if i ever the folder open , and i would be connected with 600 of pictures of course having an unexpected lesson spent .
+now , that 's three weeks , and this , greenwash half hours .
+
+now , i like a little extreme , you know , in how little appetite , i went on the <unk> of memories , but even if you more of doing it is a real question . why we give memories so much weight in <unk> to the weight that we experiences be ?
+so i want that they had a <unk> think .
+imagine your next to travel that you know that the end of <unk> all their pictures gutted , and you have a <unk> drug , so that they 're going to do n't remember being .
+now , you would the same two holidays and vote ?
+and if you another vacation would choose , they have a conflict between her two types of self and you must think about how they were viewing this choice and this is really does not obvious , because if you in terms of time thinking they get an answer . and if you in terms of memories think they could have another answer to get .
+why we the holidays , pick out that we enlist is a problem that we had to make a choice between the two types of self .
+now , the two types of self : drop two words about happiness in .
+there are actually two ideas about happiness that we can use , one per second self .
+so you can ask : how happy that 's <unk> itself ?
+and then you 'd say , as happy are those moments in life of <unk> itself ?
+and they 're all -- happiness in moments , is a fairly complicated process .
+what are the emotions that view , can be ?
+and , the way , we 're now just look at a pretty good idea to get from fortune of <unk> itself over the time .
+if you for the privilege of <unk> even asking it 's a different one thing .
+this is not about how happy one person is alive .
+it 's about how fulfilling and enjoying the person 's when they 're about her life system .
+very different term .
+anybody who these concepts n't distinguish it 's exploration of happiness up , and i belong to a lot of explorers of well-being that exploration of happiness long screwed up on these same way .
+
+the <unk> organization has a global survey , the more than half a million people getting questions that have been about what you about her life thinking about and their experiences . and there were other efforts in the direction .
+in recent years , there 's begun to do about happiness in the two types of self to learn .
+and the <unk> thing that we think , i 've learned is that they really differently about .
+you can know how to please anybody with his life is , and that teaches you really not a lot about how excited he live your and reverse .
+just to you a sense of the correlation of bed , the correlation 's about <unk> .
+what this is that if you know someone be met and you 'd just say , oh , his father 's a <unk> how much would you about his greatness know ?
+well , they were about his greatness know , but there are much uncertainty .
+they were so much uncertainty .
+if i tell them that someone your life than eight on a scale of 10 <unk> , they much uncertainty about how excited he 's with his <unk> itself .
+the correlation is so low .
+we know something about what the happiness of <unk> rules .
+we know that money is very important , goals are very important .
+we know that happiness is basically means you very pleased to be with people who we like that time to spend with people who we like .
+there are other occupational pleasure , but this is dominant .
+so if you the privilege of two types of self can maximize want you 'll end very different things .
+the implication of what i 've said , is that we 're lucky i do n't introduce you should be a backup to comfort .
+it 's a completely different term .
+now , very quickly , another reason , which we do n't know about happiness can think is that we 're not on the same things as if we think about life thinking and if we actually life .
+so if you the simple question how excited the people in california are they will not the correct response time .
+if they ask you think that people in california , happy to be if you , say , in ohio gave life .
+and what happens is that if you about life in california , who think you think of the difference between california and elsewhere , and that difference is , say , in climate .
+now , it turns out that climate not very important for the <unk> itself is , and it 's not even very important for the thoughtful self that decide how excited people are .
+but now , because the thoughtful itself is responsible , you can come up -- some people might end to california to move .
+and it 's sort of interesting to track of what happens to people who had to california to move in hopes , especially happy to be .
+now , you <unk> themselves will not happy to be .
+we know that .
+but one thing will happen . they 're going to think that you happier , because if you think about you 'll remember is going to how awful the weather in ohio gave , and they 'll feel that they are the right decision have met .
+it 's very difficult to clear about well-being thinking , and i hope , i have you a sense of it should learn how hard it 's .
+thanks .
+thanks . i have a question for them .
+thanks .
+so when we , a few weeks phone 've talked about them towards me that it 's a pretty interesting thing , which had this <unk> survey found .
+that 's something where they 're participating can climb , because they now a few minutes left of ?
+daniel <unk> : sure .
+i think the most exciting thing that we in <unk> survey ever have found is a number that we absolutely not to find thought was .
+we found that in terms of the privilege of <unk> itself .
+if we semi-circle looking at how emotions with the income of footholds that .
+and it turns out that in income of 60,000 per year , for americans , and this is a very large sample of americans , about 600,000 , but it 's a lot of representative sample , under a salary for about 600,000 dollars a year
+60,000 .
+dk : 60 .
+60,000 per year , people are deeply unhappy , and they 're increasingly less , the poorer now people .
+that we get a completely flat line .
+i mean , i rarely make flat line seen .
+what happens is obvious that money to do n't <unk> 17th , but that lack of money one certainly misery and raise , and we can talk of misery truly , very clear to measure .
+in terms of other self , of <unk> itself , they get another story .
+the more money you earned the more of satisfaction is you .
+it 's not in emotions .
+but danny , the entire american effort is about life , freedom , the pursuit of happiness .
+when people this database take seriously , did i mean , it feels it upside down to ask , everything that we think that for example in terms of <unk> and so forth .
+they have a chance that politicians that land is generally a database of the gravity would take and then based upon politics would do ?
+dk : you know , i believe that there are mindshare and then there for the role of <unk> in politics .
+the recognition is starting to be in the united states , no question , but the uk does it right and in other countries have that it right .
+the people are starting to acknowledge that it in luck to think should be if we look at the political thinking .
+it will be a while , and the people will discuss that if you <unk> explore their desks or whether they <unk> look like , so we have that discussion pretty soon bring .
+how fortunate to increase can go very differently depending how you think and if you look at the <unk> even think or whether you look at the <unk> even imagine .
+this is politics can control , i think , in the next year .
+in the united states <unk> you look at that <unk> the population start measuring .
+this is , i think , in the next one or two decades of the national stats like .
+well , it strikes me that this topic is , or should least , the most important political debate to track be about the next few years .
+thanks for the invention of <unk> .
+thanks , danny <unk> .
+i 'm watching jane mcgonigal , i make games .
+i becoming now for 10 years <unk> . and my aim for the next decade is , it as easy to make the world , in reality to save you 're doing in <unk> to save is .
+i have a plan for . i want more people to convince them , including you all , more time to play , more and <unk> games to spend .
+now we spend three billion hours per week with <unk> .
+some of you might think , `` this is a lot of time for games . ''
+perhaps slightly too much time , if you consider how many problems we desperately in the real world to solve this .
+now , my research on the institute for the future , according to is the opposite accurately .
+
+indeed , i 'm convinced that if we do the next century on earth 's survival want to move the time dramatically increase to .
+i 've calculated that the kind of time in 21 billion hours <unk> per week about .
+it appears first maybe something <unk> , so again , i 'm going to create a way ca : if we issues like hungry , poverty , climate change , global conflict and obesity is to solve , i think , we have to try to play online for least , 21 billion hours per week until the end of the next decade to play .
+no , i mean it really seriously .
+why ? this picture describes the exact condition , why i believe that games are so vital for survival of human species in the future are . seriously .
+this is the picture of photographers <unk> <unk> .
+he wanted to the feelings to play catch . so he was the players a camera put up .
+this is one of this classic expression of playing video .
+if you have any players are , and avoid them some of nuances in this image .
+
+if you also play , you see certain nuances here , which semen up <unk> eyes and the mouth is a sign of optimism . the eyebrows present surprise .
+this is a player , the edge of the so-called epic <unk> you can .
+oh , you know the -- ok. be neat . so we have some outstanding players here .
+a <unk> victory is a result , this so extremely positive is that they were n't know that we 've ever been possible .
+it was almost beyond the imagination .
+and if you do it 's a shock , actually be able to have to be aware . this is a <unk> victory .
+these gamer is about an indian epic victory .
+and this is what we on millions of faces of <unk> around the world is where we need , if we are challenging the next century are attacking . the face of those that contrary giving in the edge of the epic <unk> are .
+well , unfortunately , we see sort of the face in real life if we difficult problems facing .
+i call it as the `` in life i 'm a bad . <unk> . and it 's actually my face , you see ? yes ? ok .
+this is me , what i did `` in life i 'm a bad . <unk> do .
+this is a graffiti on my former home at berkley , california where i in my ph.d. studying how we in games are better than in real life .
+this is a problem that many other players have .
+we think that we the reality is not as well there are locked in games .
+and i mean not only less successful , although it and as part .
+we reach into <unk> more . i mean well in relation to the motivation , something meaningful to do , inspired to work together .
+if we in a <unk> are , i believe that many of us into our best version turn , anytime and immediately <unk> 're working hard the problem solving try to have been so how much needed to be looking at a failure , again and try .
+and the reality , if we fail , if we came across barriers , into feel we often different .
+we feel overwhelmed . we feel reversal . we feel threatened , maybe depressed , frustrated , or <unk> .
+these feelings that we 've never , if we play games , in games are they simply not .
+and that 's what i as <unk> study wanted .
+why is it into play impossible to think , you could n't anything possible ?
+how we can these feelings are to play in the reality spread ?
+
+and i have some things started to the epic victories of <unk> so do .
+
+but not just some mission , but a mission that are perfectly to its current level in games does , right ?
+so they make it .
+they have never a task , you are not going to solve .
+
+you 're not around and turns <unk> . it 's always be detected something important to do .
+and there are tons of staff .
+where they also going to be hundreds of people who inspire them together to change epic mission to this problem .
+so we in real life is not just that emotion that at a <unk> tons of staff are willing to stand .
+and then is this epic story , this inspiring story , why we 're there and what we have to do .
+then there 's all of the positive feedback .
+they 've driven by `` level up '' and `` plus-one strength '' or heard `` plus-one intelligence . ''
+this constant feedback is n't there in real life .
+when i do this stage was leaving , i did n't do is plus-one talk and plus-one crazy idea , <unk> crazy idea .
+i get in real life that feedback , not .
+
+they 're just better than the reality .
+now have all the world of <unk> together <unk> million years , spent the virtual problems of <unk> to solve .
+this is not necessarily something bad .
+it might sound bad .
+but to think about it in context of vision : at <unk> million years , i started our first <unk> upright to go .
+the first upright primate so .
+ok , so if we talk about how much time we are playing , spend , do it just make sense , when you have the time in terms of scale of human flourishing looking at each holding what the most people that .
+but also be appropriate . because it turns out that we , by this whole time looking at the play using , actually changing this , what we as humans to have the power .
+
+this is the truth . believe me .
+consider all these interesting statistic that recently from a researcher at carnegie mellon university was published , the average young man of today in a country with strong <unk> spend 10,000 hours with <unk> by the 21st of age .
+so , 10,000 hours is an extraordinarily interesting number , from two reasons .
+now , , for children in america are <unk> hours to capture the <unk> that you in school to spend , from the fifth grade , up to leave high school . if you never absent .
+so we 've got a complete <unk> , on the young people just learning what it means that a good players to be as anything , what you in school learn .
+and maybe some of them the new book of malcolm gladwell , `` <unk> '' to read .
+so you 've had his theory of your success , the theory 's success 10,000 hours .
+it 's based on the great science of <unk> that if we scraped 10,000 hours to and laborious study of any subject to the 21st of age of congress spend , we 're going to rise of course .
+we are so good at whatever to do what the most important people the world .
+so what we have here is an entire generation of young people who <unk> are .
+the big question is so `` what exactly are player <unk> right ? ''
+because if we find out , if we basically 'd never here <unk> human potential available .
+so many people we 've now in the world , the least an hour in one day with <unk> spend .
+these are our <unk> : 500 million people who were extraordinarily well , `` what . '' are .
+and the next decade we have another billion players , which is exceptionally good in whatever that are .
+if they 've never heard ,
+the <unk> developed <unk> , the energy savings and on <unk> work , instead of the <unk> , so players around the world , especially in india , china , brazil online , you can play .
+you expect throwing another billion player in this next decade .
+so we have total of 1.5 billion player .
+so i started , to contemplate what it 's , what 's have these games to have mastered is done .
+there are the four things that i found . first : <unk> .
+ok , imagine that the extreme <unk> ago .
+<unk> is the desire , instantly wanted to do , a challenge to rise , with the belief that we have a <unk> hope to have success .
+players to think about that a <unk> victory possible , and that these are always be worth , it to try and that moment .
+players are not vice versa .
+players are masters of spiders poet of social networks .
+there 's a lot more interesting studies that indicate that we people more like , after we with you have played , even if you 're evil to beat up .
+the reason is that 's a lot of trust takes , with somebody a game to play .
+we rely on that any time with us to spend that the rules would be honored to be the same purpose and have to <unk> to stay .
+so allow this together the growing of ties to trust and together .
+as a consequence of you build greater social relations in .
+<unk> productivity . fantastic !
+you know , there 's a reason that the <unk> of <unk> 22 hours per week doing plays to speak , as <unk> .
+the reason is that if we play , we 're really happy with you to work hard , as if we wanted to relax , or doing nothing .
+we know that we as human beings can optimally use functional , if we 're stiff , great bidding .
+and players are always ready , to work hard , if you the real problem keeping fires .
+and finally , epic meaning .
+players love this , part of awe <unk> missions <unk> magnitude of this .
+here a <unk> , to illuminate the back , you know definitely all the wikipedia , the biggest wiki the world .
+
+five million people use it every month .
+
+you build another epic story .
+
+ok , so that 's four superpowers to a single thing to take action gamers are <unk> , hopeful individuals .
+it 's people who believe that they 're a single change the world can .
+and the only problem is that you believe , you can the virtual worlds are changing , but not the reality .
+this is the problem that i 'm going to solve try .
+edward <unk> is a <unk> .
+his work is genius . he studies , why people as much time , energy and money in <unk> spend .
+and he says , `` we 're going to witness of nothing less than a <unk> in virtual worlds , <unk> . ''
+and that by an economist . so he 's obvious .
+and he goes ...
+not just like me , i becoming more games , i 'm doing something <unk> .
+so he says , this makes actually make sense , because player can in <unk> achieve more than in real life .
+you can in games holds the social ties that other than in real life . they get more feedback and rewards in games than in real life .
+so , he says , it 's currently is entirely obvious that players are more time in the virtual world as in the real spend .
+i agree to first time to imagine that 's obvious .
+but it 's definitely no <unk> .
+we need to start to the real world in a game into this .
+my inspiration comes from an event , the 2,500 years ago .
+there are those ancient cube , from <unk> . you know ?
+in front of these fantastic <unk> there <unk> .
+and that were sort of the first of humans evolved <unk> .
+and if you with the work ancient greek <unk> <unk> are familiar , you know , maybe this story . the story about how and why games have invented up .
+according <unk> got games , particularly <unk> , the kingdom <unk> during a famine invented .
+supposedly , we had such a great famine , that the king of <unk> to a crazy idea took it .
+people have struggled . people fought .
+it was an extreme conditions . it took an extreme solution .
+so they invented , according <unk> that <unk> and <unk> a national energy strategy . in one day would you eat . next day you would play .
+and they were so much in the <unk> <unk> be that i 'll play so fascinating , and connect to satisfying to <unk> productivity surrounding that you remember that would that 's nothing to eat out there .
+and then , the next day you would play . and the next day would you eat .
+and according <unk> allowed them as 18 years that famine , by one day where were eating and the following played .
+likewise , i think it 's now play a .
+we put play a to suffer the real world to escape .
+we put play a to everything to avoid that in the real world 's broken , everything that in real life does n't consider “real” value is , and we bring us what we need are to play .
+but it does not the end to be .
+this is the exciting .
+
+they divided the kingdom of two halves .
+you played a <unk> and the winner got to another epic adventure to shift .
+they were <unk> and rendered into the lookout for a new home . they had just so many people back , as food to surviving there and went to the rest for an area where they 're thriving could .
+it sounds crazy , right ?
+but the latest <unk> show that the <unk> that later the roman empire arose , the same dna as the old <unk> whatsoever .
+so i did scientists recently at the notion that <unk> ' crazy story actually true .
+and geologists thought evidence of global cooling , which almost 20 years before , what the famine and tell you could .
+and you might the crazy story to vote .
+maybe they 've actually their people through the same ones saved by looking at 18 years in games <unk> have and then this intuition , and so much about the other ones who learned that it makes the whole civilization have saved .
+so that we can also .
+
+it was the first <unk> in real-time the world of <unk> . it was 16 years before .
+
+i want to say , we 're ready for our own epic game .
+so , they sent the half of civilization in the quest for a new world . so i took my 21 billion <unk> per week .
+we should there <unk> that half of us an hour day was playing , spend , until we really hard of the real world have solved .
+i know , they will say `` how we solve problems the real world in play ? '' and this particular question i mean work in recent years of the institute for the future the expectation .
+we have this banner in our office in palo alto , it push out how to the future should figure out .
+we do n't want to try to the future ahead to say .
+what we want it 's the future to make .
+we want to make the most results ; and then people do it <unk> , this idea in the reality home .
+we imagine epic victories of and give people the possibility of reaching them .
+we 'll take a comment about three different games that i 've designed to try to people epic victories by your own future to speak up .
+this is `` world without oil . ''
+this game is in 2007 .
+it 's a game where you a <unk> overcome these issues .
+the <unk> 's invented , but we have enough <unk> so it for it looks realistic , and your real life in fact , without oil our lives . so , when they have to play register , just tell us , where you live . and then you 'll get <unk> in real-time , the show how much oil costs , what 's not exist as food at risk is being transported at risk is whether to school closed , whether it uprisings have . and they have to figure out how your real life make when it 's true about it . and we ask them to me to blog , video or taking photos hiring .
+we have this game with <unk> players in 2007 test . and we have you ever since over the last three years traveling .
+and i urge you say , it was changing the experience .
+nobody wants to be life change , because it is good at the environment is , because we should .
+but if it in epic adventure , and told you get `` we 're doing the oil . ''
+this is a fascinating adventure , on that you go .
+you find out how to survive her going . most of gamers have in the game learning habits maintained .
+so we 've gone for the next <unk> play a bigger , higher purpose of expertise as just <unk> .
+we have the game `` <unk> '' the institute for the future of its own .
+baseline is computation as a <unk> , that people can only have 23 years in the planet ended up .
+this massive supercomputer called global <unk> <unk> , '' .
+
+you know jerry <unk> where it 's `` <unk> '' is . they have the astronaut , the scientists , the <unk> and just crashed , you can save the world .
+but in our games , instead of only five people , say , everybody 's in <unk> , and it 's our job , the future for energy , food , health , security and the future of social justice to create .
+8,000 player up playing the game was five weeks ' worth .
+they were 500 incredibly creative solutions that you read them , if you `` <unk> '' google .
+and the last game , we take on three . march out . it 's a game in conjunction with the world bank .
+if you the game to conclude , they gain from the world bank , the distinction `` social <unk> , once in 2010 .
+
+we have a comic that , we have `` level up , for <unk> understand , <unk> , sustainability , vision and ingenuity .
+i want you all you invite the game with young people to share , around the world , especially in <unk> , the benefit to move along their own social enterprises imagine , the world to save .
+i am going to the end .
+i want you some questions .
+what you think that happens next ?
+we 've all those fantastic players , we have games that show us what we can do , but we have the real world has n't be saved .
+well , i hope to me how do agree that players are human resources are we have to work in real life can use , and that play a great significance to change in .
+we 've all these superpowers , <unk> productivity , the ability , strong social networks to knit , <unk> and the craving for <unk> meaning .
+i really hope that we go along great play games to all earth 's another century to survive .
+and i hope you 're going to me like play design and play .
+if i want to the next decade <unk> , i 'm at two things not sure , that we each <unk> future can make , and that we all sorts of play games can .
+so i say , let the <unk> games are beginning !
+thanks .
+i 'd just like to share something that 's mine , a few months to write an article for <unk> wired noticed is .
+i have to write more and my <unk> fingertips , but i was writing the great frontier of <unk> already done , and i realized that i never happened in my life <unk> have what the word `` evacuating , '' actually means .
+i read them a post about .
+
+<unk> : well , strong , powerful . ''
+
+obviously this a <unk> , old <unk> . i 'm going to think that the readout pretty age should .
+but actually it was a copy of the early '80s when i just with the elementary started , and started to my model elsewhere in my family terribly building and to form , in terms of other kids and the rest world around me .
+and thank god , i did n't <unk> used .
+i 'd like this post take seriously i 'd be in the world was born that someone like me as a person would perceive , whose lives in <unk> 's how positive go away . today , but i want to the opportunity and adventure , which i 've experienced , celebrated .
+so i i immediately the <unk> of 2009 called and expecting that i 'm here a <unk> contributions to find .
+there 's the <unk> version of this <unk> .
+unfortunately it 's not much better .
+especially a shock to the last two words of `` <unk> <unk> '' `` well , '' `` well . ''
+but it 's not just about the words .
+it 's about what we thought about people think that we with these words describe .
+it 's about the values that in these words stuck , and how to those values , constructing weights .
+our language affects our thinking and how to the world , and people around us see .
+many <unk> societies , including the the greek and the roman , have really believed that the sound reinforcement of <unk> a great force , because what you hear it <unk> , it can manifest .
+so what we want you think of manifest -- a <unk> people or a powerful people ?
+just a human <unk> as a child to call , could do , you know about curtailing and share ideas <unk> .
+it would not nice , you doors to open up ?
+a person , the top of my door opened up , i had a pediatrician in <unk> . dupont institute in <unk> in <unk> .
+he is dr. <unk> . a <unk> , whose name , as you can imagine , most americans do n't counted correctly tell you could eat . so he became increasingly , dr. p. called .
+and dr. p. had always very colorful fly and was for the work with kids out how we created .
+i found the time that i in this hospital , i spent , just great -- except for my <unk> .
+i needed a single little exercise it seems that infinite number of times , you ought to these thicknesses of <unk> <unk> -- in different colors -- that you 've had to my <unk> building . and i have these down at all hated worse than anything else . i did they hated it . i have you 're haunted . i did they hated it .
+and imagine that i whistled even been known as <unk> kid with dr. p. negotiate and so trying to these systems to stop , <unk> not succeeding .
+and one day he made me at a i practiced observation -- these systems were just tiring and mercilessly , and he said to me , `` wow , is aimee , you 're like a lot of <unk> and young girl , you 'll someday , one of the ligament organs .
+and if you make it , i give you a hundred dollars . ''
+it was obviously just a simple trick of dr. p. , so i the systems do that i did n't want to do with the prospect that richest five-year-old kid in the ward in the second stick to be . but he got me actually get started to my daily <unk> through fresh eyes to see . it turned out a new and <unk> experience .
+and i wonder now how much of his vision for me as strong and <unk> young girl my model of shaped , and i would never imagined , me as an inherently strong , powerful and <unk> human to see .
+this is just an example of many , as adults in <unk> the imagination a child 's engaging together .
+but how are already <unk> examples from the <unk> prove that makes us our language no room , is something to imagine what we all wish i would say it every single be able to yourself as powerful people in .
+
+the medical records of view from outer you can course , say that my legs , the <unk> for <unk> , <unk> of titanium or artificial <unk> for <unk> body that allow people , really all their opportunities to use and over the boundaries of them their natural fortune was set , out to develop , not going to talk about social <unk> platforms that people make up with my own identity , put on your way , redefining , and that the world to groups are choosing that they 're going to enlist .
+maybe it gets so this technological change powerful because the that it always a different truth gave , namely , that every human society at something very <unk> and very <unk> can give you and that the human ability to adapt to our biggest plus is .
+the human ability to adapt to -- it 's an interesting story because people me every time to ask to tell , i do with giving deal and i 'm about something ta : that sentence , but what i never <unk> and i 'm always very uncomfortable with it felt that question of people do it to answer , and i think , gradually i can understand why .
+this phrase from our dealings with giving living by the idea that success or happiness we depend on it , a challenge to rise , devoid of them together can experience shape of this . like my life so successful order to be because i have the potential to drop of life with a prosthetic way that could n't it anyway that people to me with my disability to sense .
+but the truth is that we change . so we are from the challenge coined , whether you physically , emotionally , or , both is
+and i 'm suggesting that this is good .
+giving is no obstacle that we <unk> need to have our lives better to cope .
+giving are going to our lives .
+and i tend to giving away from my shadow of vision .
+sometimes i realize that he was really present is , sometimes it 's hard to see , but it 's always with me .
+and i want to save the impact , or the heavy of <unk> a person <unk> .
+there are in life , giving and challenges , and they 're just <unk> real and every person walks out of them differently about . but the question is n't know if we 're giving you come , or not , but the way that we really clear understanding .
+so we 're not just responsible for that people that we love , before <unk> to maintain , but they also to prepare , well , in order to cope .
+and we provide our kids do n't like when we tell you feel that give you ca n't be able to fit .
+you have two things that dividing , first of the medical fact , an amputee , to be and the second important social think about whether i helped me or not .
+and to be honest , the only real and persistent disability , with me apart from happening to , is that the world are constantly says , you ca n't help me with definitions that describe .
+in our desire , the people to protect that we care anywhere and you the cold , hard truth about their medical projections to communicate or even a prediction for quality to imagine that you have thought we must pay attention , that we not the foundation to put that somebody actually has helped is .
+
+if we 've got people do n't holistically and treat , and not all its structural forces and opportunity to sense , and recognizing do in addition to the natural struggle that you might lead to another disease .
+we <unk> a person who wanted to our society , this is worth .
+so we have about the <unk> beyond watching and look at all the area of human possibility to focus .
+at a sustainable and is that between the perception of mismatch and our magnificent ingenuity , a connection there .
+
+it 's me , maybe more about making sure enough to imagine that we 're giving not necessarily through these issues , but that we should open , you to hug , you to seize the pack to be a <unk> to use , maybe even in order to dance .
+and maybe do it , giving as a natural , <unk> and useful to see and feel ourselves that through their presence n't get strained .
+so this year celebrate the 200 birthday , by charles darwin and when he had 150 years ago about evolution has written , did darwin , in my eyes , on something very real in the human nature -- pointed out .
+i 'd like to paraphrase `` do n't the best performing their way to survive , or neither of <unk> its way , but now , who was changes in the best fit for .
+in conflict -- comes out of creativity .
+not only from darwin 's work we know that the person 's ability to survive and was blossoming of the battle of human spirit , marmite is that spreads by conflict to turn .
+so , again , change and embrace is the great skills of man .
+
+perhaps is exactly the point of giving up with perception of swings , the sense of our own power .
+we can not so even a gift .
+we can be giving a new meaning that wall , who really tough times beyond the point .
+we may giving of climate change those .
+giving up for a change that we have n't have adapted .
+i think the most of damage that we ourselves <unk> have is to believe that we normally should be .
+'s face -- who is normal ?
+it is not normal .
+there are the usual . the typical . but not the normal . and they would those poor , gray person real familiar to learn when it really gets them gandhi ?
+i think probably not .
+we would love , if we that paradigm of normality versus another the capabilities or the strength to it even slightly dangerous to ask , exchange for ; we get the forces of lots of kids who release and they do you invite your special and valuable skills in the society , emotionally .
+<unk> have found that we humans from the members of our society and one claimed that have , useful to be and a contribution to do .
+
+there are these people wo n't be broken and useless level ; they were as a treat and valuable treated .
+by a few years i went in the city in which i raised was , in a <unk> in those `` red zone , '' at northeastern part of pennsylvania , and i was there in a <unk> tomato .
+it was the summer and i had <unk> on .
+and i hear , as a guy behind me say , `` well as is aimee mullins , is . ''
+and i turn to my mom and see this elderly gentleman . i had no idea who he is .
+and i meant `` sorry , sir , we know ourselves ? i 'm not to you remember . ''
+and he said , `` well , they appear to do n't remember me .
+when i they were first saw , i you in the belly down your mother -- taken . ''
+oh , so the .
+so obviously has to do it actually click done .
+now , dr. <unk> , a guy that i just like narratives of my mother about this day before , because i course , of typically , to my birthday , two weeks late for coming .
+the doctor for <unk> diagnostics of my mother was on holiday , and so i knew my parents the man who was born , bringing it , no .
+and because i do n't <unk> was born , and my feet up after them pointing had and i just a few toes in this and some toes in other foot felt like he was the <unk> , these strangers to the bad news <unk> .
+
+really exceptional , i found that he <unk> my entire childhood collected , anyway , if i was in a <unk> in the second grade , i had gained , if i want to get <unk> on parade of <unk> road was , however , if i scholarship or one of cups victories <unk> had , and he used these clips to the students to teach , <unk> from the <unk> medical school and the <unk> medical school .
+and he called this part of <unk> the x factor , the potential human willing .
+you ca n't extol to how critical of the factor for the quality of people can be .
+and dr. <unk> talked further , he said `` i learned that kids , if you do n't always something else said , and even if you just some help teachers get to get kids its leaves , can get kids very much for . ''
+you see , dr. <unk> has been thinking of changes .
+he had understood that the medical diagnosis , and what someone to handle , two different things are .
+
+i wanted to go back to have normal work .
+if you look at this today to ask , i 'm not quite sure .
+and that 's happening because i do with my legs , i 've experienced and not even though these experiences .
+and perhaps could this change that 's also happen because i was so many people face 'm in my door opened , instead of people to address that i cut or me an idea <unk> wanted .
+you see , it really just a person who you demonstrates how one of these forces of manifest can , and they 're going down .
+if you find somebody 's possible for his own , inner power to activate , -- the human mind is so <unk> -- if you do this , and for someone in a critical moment a door up , then you 're for those people are very good teachers .
+they teach them on themselves , the doors to open .
+the real importance of the word `` <unk> '' was rooted in the word `` <unk> . ''
+it means to produce that in one is , the potential <unk> .
+again , what the potential , we hope because now , and retrieve them ?
+in the 1960s set out in britain a <unk> done . were <unk> in <unk> transformed .
+they call that there , `` <unk> <unk> '' in the u.s. and call it as `` <unk> . ''
+students are going down grades , correlate them .
+
+
+so obviously <unk> you to the heart to listen to be subverted the <unk> they said , they were just enough .
+and similarly , it was then after the three months , too .
+but only ones who still in school were -- apart from the students that the school <unk> had .
+very crucial in this trial was that the teachers not <unk> were .
+the teachers did n't think something changed was .
+they were just told that are the student and that the students with the note enough . and just put them some trained and you treat .
+
+if we did n't want to create , the human spirit to support to continue to hope to yourself and other people around it nice to find , inquisitive and <unk> to be then put our natural forces genuinely positive .
+if a spirit of those qualities , mandate , we can a new reality and new <unk> create .
+
+come to dance with me . thanks .
